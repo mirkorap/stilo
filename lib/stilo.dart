@@ -1,4 +1,4 @@
-/// A utility-first Flutter framework that containing different type of 
+/// A utility-first Flutter framework that containing different type of
 /// utility classes to speed up development process.
 ///
 /// The library contains classes to deal with:
