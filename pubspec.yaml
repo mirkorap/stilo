@@ -1,8 +1,7 @@
 name: stilo
 description: A utility-first Flutter framework for rapid UI development.
-version: 0.0.1
-author:
-homepage:
+version: 1.0.0
+repository: https://github.com/mirkorap/stilo
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
