@@ -16,6 +16,10 @@ A utility-first Flutter framework for rapid UI development.
 * Width
 * Many others...
 
+## Documentation
+
+For full documentation, visit [pub.dev](https://pub.dev/documentation/stilo/latest/stilo/stilo-library.html).
+
 ## Examples
 
 1\. Using `StiloBorderRadius` utility class
