@@ -1,14 +1,90 @@
-# stilo
+## Introduction
 
 A utility-first Flutter framework for rapid UI development.
 
-## Getting Started
+## Utilities
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+* Border radius
+* Box shadow
+* Divider
+* Font size
+* Height
+* Letter spacing
+* Line height
+* Opacity
+* Spacing
+* Width
+* Many others...
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Examples
+
+1\. Using `StiloBorderRadius` utility class
+
+```dart
+import 'package:stilo/stilo.dart';
+
+Container(
+  width: 200,
+  height: 200,
+  decoration: BoxDecoration(
+    borderRadius: StiloBorderRadius.a4,
+    color: Colors.orange,
+  ),
+)
+```
+
+2\. Using `StiloBorder` utility class
+
+```dart
+import 'package:stilo/stilo.dart';
+
+Container(
+  width: 200,
+  height: 200,
+  decoration: BoxDecoration(
+    border: StiloBorder.a4(Colors.deepOrange),
+    color: Colors.orange,
+  ),
+)
+```
+
+3\. Using `StiloSpacing` utility class
+
+```dart
+import 'package:stilo/stilo.dart';
+
+Column(
+  children: <Widget>[
+    Container(width: 200, height: 100, color: Colors.orange),
+    StiloSpacing.y20,
+    Container(width: 200, height: 100, color: Colors.indigo),
+  ],
+)
+```
+
+4\. Using `StiloWidth` and `StiloHeight` utility class
+
+```dart
+import 'package:stilo/stilo.dart';
+
+Container(
+  width: StiloWidth.w24,
+  height: StiloHeight.h32,
+  color: Colors.orange,
+)
+```
+
+5\. Using `StiloBoxShadow` utility class
+
+```dart
+import 'package:stilo/stilo.dart';
+
+Container(
+  width: 200,
+  height: 200,
+  decoration: BoxDecoration(
+    color: Colors.orange,
+    boxShadow: StiloBoxShadow.md,
+  ),
+)
+```

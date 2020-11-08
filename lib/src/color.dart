@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
+/// Defines color constants.
 abstract class StiloColor {
-  static const int _greyPrimaryValue = 0xFFA0AEC0;
+  /// The grey primary color and swatch.
   static const MaterialColor grey = MaterialColor(
     _greyPrimaryValue,
     <int, Color>{
@@ -16,8 +17,9 @@ abstract class StiloColor {
       900: Color(0xFF1A202C),
     },
   );
+  static const int _greyPrimaryValue = 0xFFA0AEC0;
 
-  static const int _redPrimaryValue = 0xFFF56565;
+  /// The red primary color and swatch.
   static const MaterialColor red = MaterialColor(
     _redPrimaryValue,
     <int, Color>{
@@ -32,8 +34,9 @@ abstract class StiloColor {
       900: Color(0xFF742A2A),
     },
   );
+  static const int _redPrimaryValue = 0xFFF56565;
 
-  static const int _orangePrimaryValue = 0xFFED8936;
+  /// The orange primary color and swatch.
   static const MaterialColor orange = MaterialColor(
     _orangePrimaryValue,
     <int, Color>{
@@ -48,8 +51,9 @@ abstract class StiloColor {
       900: Color(0xFF7B341E),
     },
   );
+  static const int _orangePrimaryValue = 0xFFED8936;
 
-  static const int _yellowPrimaryValue = 0xFFECC94B;
+  /// The yellow primary color and swatch.
   static const MaterialColor yellow = MaterialColor(
     _yellowPrimaryValue,
     <int, Color>{
@@ -64,8 +68,9 @@ abstract class StiloColor {
       900: Color(0xFF744210),
     },
   );
+  static const int _yellowPrimaryValue = 0xFFECC94B;
 
-  static const int _greenPrimaryValue = 0xFF48BB78;
+  /// The green primary color and swatch.
   static const MaterialColor green = MaterialColor(
     _greenPrimaryValue,
     <int, Color>{
@@ -80,8 +85,9 @@ abstract class StiloColor {
       900: Color(0xFF22543D),
     },
   );
+  static const int _greenPrimaryValue = 0xFF48BB78;
 
-  static const int _tealPrimaryValue = 0xFF38B2AC;
+  /// The teal primary color and swatch.
   static const MaterialColor teal = MaterialColor(
     _tealPrimaryValue,
     <int, Color>{
@@ -96,8 +102,9 @@ abstract class StiloColor {
       900: Color(0xFF234E52),
     },
   );
+  static const int _tealPrimaryValue = 0xFF38B2AC;
 
-  static const int _bluePrimaryValue = 0xFF4299E1;
+  /// The blue primary color and swatch.
   static const MaterialColor blue = MaterialColor(
     _bluePrimaryValue,
     <int, Color>{
@@ -112,8 +119,9 @@ abstract class StiloColor {
       900: Color(0xFF2A4365),
     },
   );
+  static const int _bluePrimaryValue = 0xFF4299E1;
 
-  static const int _indigoPrimaryValue = 0xFF667EEA;
+  /// The indigo primary color and swatch.
   static const MaterialColor indigo = MaterialColor(
     _indigoPrimaryValue,
     <int, Color>{
@@ -128,8 +136,9 @@ abstract class StiloColor {
       900: Color(0xFF3C366B),
     },
   );
+  static const int _indigoPrimaryValue = 0xFF667EEA;
 
-  static const int _purplePrimaryValue = 0xFF9F7AEA;
+  /// The purple primary color and swatch.
   static const MaterialColor purple = MaterialColor(
     _purplePrimaryValue,
     <int, Color>{
@@ -144,8 +153,9 @@ abstract class StiloColor {
       900: Color(0xFF44337A),
     },
   );
+  static const int _purplePrimaryValue = 0xFF9F7AEA;
 
-  static const int _pinkPrimaryValue = 0xFFED64A6;
+  /// The pink primary color and swatch
   static const MaterialColor pink = MaterialColor(
     _pinkPrimaryValue,
     <int, Color>{
@@ -160,4 +170,5 @@ abstract class StiloColor {
       900: Color(0xFF702459),
     },
   );
+  static const int _pinkPrimaryValue = 0xFFED64A6;
 }

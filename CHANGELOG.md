@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [1.0.0] - 2020-11-08
 
-* TODO: Describe initial release.
+* Initial release of Stilo! Includes core utility classes to simplify Flutter development.

@@ -1,3 +1,8 @@
+/// A utility-first Flutter framework that containing different type of 
+/// utility classes to speed up development process.
+///
+/// The library contains classes to deal with:
+/// borders, font sizes, spacings, widths, heights and much more...
 library stilo;
 
 export 'src/border_radius.dart';
