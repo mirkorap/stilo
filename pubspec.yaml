@@ -1,5 +1,5 @@
 name: stilo
-description: A utility-first Flutter framework for rapid UI development.
+description: Stilo is a utility-first Flutter framework that gives you all of the building constants you need to build designs without define common styles for spacing, borders and much more
 version: 1.0.0
 homepage: https://github.com/mirkorap/stilo
 
