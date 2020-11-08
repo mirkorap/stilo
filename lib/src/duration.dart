@@ -1,5 +1,3 @@
-library stilo;
-
 abstract class StiloDuration {
   static const d75 = Duration(microseconds: 75);
   static const d100 = Duration(microseconds: 100);

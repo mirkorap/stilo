@@ -1,5 +1,3 @@
-library stilo;
-
 abstract class StiloGridGap {
   static const g0 = 0.0;
   static const g1 = 3.0;

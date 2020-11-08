@@ -1,5 +1,3 @@
-library stilo;
-
 abstract class StiloElevation {
   static const z0 = 0.0;
   static const z10 = 10.0;

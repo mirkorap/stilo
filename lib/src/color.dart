@@ -1,5 +1,3 @@
-library stilo;
-
 import 'package:flutter/material.dart';
 
 abstract class StiloColor {

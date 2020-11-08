@@ -1,5 +1,3 @@
-library stilo;
-
 abstract class StiloFontSize {
   static const xs = 9.0;
   static const sm = 10.5;

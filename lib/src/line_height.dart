@@ -1,5 +1,3 @@
-library stilo;
-
 abstract class StiloLineHeight {
   static const none = 1.0;
   static const tight = 1.25;

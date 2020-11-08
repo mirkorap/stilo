@@ -1,7 +1,4 @@
-library stilo;
-
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 abstract class StiloRotate {

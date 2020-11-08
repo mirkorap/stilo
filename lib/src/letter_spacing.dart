@@ -1,5 +1,3 @@
-library stilo;
-
 abstract class StiloLetterSpacing {
   static const tighter = -0.6;
   static const tight = -0.3;
