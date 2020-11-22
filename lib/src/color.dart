@@ -2,6 +2,69 @@ import 'package:flutter/material.dart';
 
 /// Defines color constants.
 abstract class StiloColor {
+  /// Completely invisible.
+  static const Color transparent = Color(0x00000000);
+
+  /// Completely opaque black.
+  static const Color black = Color(0xFF000000);
+
+  /// Black with 90% opacity.
+  static const Color black90 = Color(0xE6000000);
+
+  /// Black with 80% opacity.
+  static const Color black80 = Color(0xCC000000);
+
+  /// Black with 70% opacity.
+  static const Color black70 = Color(0xB3000000);
+
+  /// Black with 60% opacity.
+  static const Color black60 = Color(0x99000000);
+
+  /// Black with 50% opacity.
+  static const Color black50 = Color(0x80000000);
+
+  /// Black with 40% opacity.
+  static const Color black40 = Color(0x66000000);
+
+  /// Black with 30% opacity.
+  static const Color black30 = Color(0x4D000000);
+
+  /// Black with 20% opacity.
+  static const Color black20 = Color(0x33000000);
+
+  /// Black with 10% opacity.
+  static const Color black10 = Color(0x1A000000);
+
+  /// Completely opaque white.
+  static const Color white = Color(0xFFFFFFFF);
+
+  /// White with 90% opacity.
+  static const Color white90 = Color(0xE6FFFFFF);
+
+  /// White with 80% opacity.
+  static const Color white80 = Color(0xCCFFFFFF);
+
+  /// White with 70% opacity.
+  static const Color white70 = Color(0xB3FFFFFF);
+
+  /// White with 60% opacity.
+  static const Color white60 = Color(0x99FFFFFF);
+
+  /// White with 50% opacity.
+  static const Color white50 = Color(0x8FFFFFF0);
+
+  /// White with 40% opacity.
+  static const Color white40 = Color(0x66FFFFFF);
+
+  /// White with 30% opacity.
+  static const Color white30 = Color(0x4DFFFFFF);
+
+  /// White with 20% opacity.
+  static const Color white20 = Color(0x33FFFFFF);
+
+  /// White with 10% opacity.
+  static const Color white10 = Color(0x1AFFFFFF);
+
   /// The grey primary color and swatch.
   static const MaterialColor grey = MaterialColor(
     _greyPrimaryValue,
