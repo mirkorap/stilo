@@ -10,3 +10,7 @@
 ## [1.1.0] - 2020-11-22
 * Add black and white colors
 * Add numeric value in font_weight docs
+
+## [1.1.1] - 2020-11-22
+* Define public constant values for border radius
+* Define public constant values for edges
