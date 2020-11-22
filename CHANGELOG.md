@@ -6,3 +6,7 @@
 
 * Update library documentation
 * Add library homepage url
+
+## [1.1.0] - 2020-11-22
+* Add black and white colors
+* Add numeric value in font_weight docs
