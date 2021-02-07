@@ -14,3 +14,7 @@
 ## [1.1.1] - 2020-11-22
 * Define public constant values for border radius
 * Define public constant values for edges
+
+## [1.1.2] - 2021-02-07
+* Fix durations types. Replace microseconds with milliseconds
+* Add new durations types
