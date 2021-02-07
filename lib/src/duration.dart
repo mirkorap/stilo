@@ -35,4 +35,10 @@ abstract class StiloDuration {
 
   /// Constructs a duration of 3000ms
   static const d3000 = Duration(milliseconds: 3000);
+
+  /// Constructs a duration of 5000ms
+  static const d5000 = Duration(milliseconds: 5000);
+
+  /// Constructs a duration of 10000ms
+  static const d10000 = Duration(milliseconds: 10000);
 }
