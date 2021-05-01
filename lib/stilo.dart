@@ -20,6 +20,7 @@ export 'src/height.dart';
 export 'src/letter_spacing.dart';
 export 'src/line_height.dart';
 export 'src/opacity.dart';
+export 'src/positioned.dart';
 export 'src/spacing.dart';
 export 'src/transform_rotate.dart';
 export 'src/transform_scale.dart';
