@@ -1,71 +1,71 @@
 import 'package:flutter/material.dart';
 
-/// Defines color constants.
+/// A class that defines color palette
 abstract class StiloColor {
-  /// Completely invisible.
+  /// Completely invisible
   static const Color transparent = Color(0x00000000);
 
-  /// Completely opaque black.
+  /// Completely opaque black
   static const Color black = Color(0xFF000000);
 
-  /// Black with 90% opacity.
+  /// Black with 90% opacity
   static const Color black90 = Color(0xE6000000);
 
-  /// Black with 80% opacity.
+  /// Black with 80% opacity
   static const Color black80 = Color(0xCC000000);
 
-  /// Black with 70% opacity.
+  /// Black with 70% opacity
   static const Color black70 = Color(0xB3000000);
 
-  /// Black with 60% opacity.
+  /// Black with 60% opacity
   static const Color black60 = Color(0x99000000);
 
-  /// Black with 50% opacity.
+  /// Black with 50% opacity
   static const Color black50 = Color(0x80000000);
 
-  /// Black with 40% opacity.
+  /// Black with 40% opacity
   static const Color black40 = Color(0x66000000);
 
-  /// Black with 30% opacity.
+  /// Black with 30% opacity
   static const Color black30 = Color(0x4D000000);
 
-  /// Black with 20% opacity.
+  /// Black with 20% opacity
   static const Color black20 = Color(0x33000000);
 
-  /// Black with 10% opacity.
+  /// Black with 10% opacity
   static const Color black10 = Color(0x1A000000);
 
-  /// Completely opaque white.
+  /// Completely opaque white
   static const Color white = Color(0xFFFFFFFF);
 
-  /// White with 90% opacity.
+  /// White with 90% opacity
   static const Color white90 = Color(0xE6FFFFFF);
 
-  /// White with 80% opacity.
+  /// White with 80% opacity
   static const Color white80 = Color(0xCCFFFFFF);
 
-  /// White with 70% opacity.
+  /// White with 70% opacity
   static const Color white70 = Color(0xB3FFFFFF);
 
-  /// White with 60% opacity.
+  /// White with 60% opacity
   static const Color white60 = Color(0x99FFFFFF);
 
-  /// White with 50% opacity.
+  /// White with 50% opacity
   static const Color white50 = Color(0x8FFFFFF0);
 
-  /// White with 40% opacity.
+  /// White with 40% opacity
   static const Color white40 = Color(0x66FFFFFF);
 
-  /// White with 30% opacity.
+  /// White with 30% opacity
   static const Color white30 = Color(0x4DFFFFFF);
 
-  /// White with 20% opacity.
+  /// White with 20% opacity
   static const Color white20 = Color(0x33FFFFFF);
 
-  /// White with 10% opacity.
+  /// White with 10% opacity
   static const Color white10 = Color(0x1AFFFFFF);
 
-  /// The blueGrey primary color and swatch.
+  /// The blueGrey primary color and swatch
   static const MaterialColor blueGrey = MaterialColor(
     _blueGreyPrimaryValue,
     <int, Color>{
@@ -82,7 +82,7 @@ abstract class StiloColor {
   );
   static const int _blueGreyPrimaryValue = 0xFF64748B;
 
-  /// The coolGrey primary color and swatch.
+  /// The coolGrey primary color and swatch
   static const MaterialColor coolGrey = MaterialColor(
     _coolGreyPrimaryValue,
     <int, Color>{
@@ -99,7 +99,7 @@ abstract class StiloColor {
   );
   static const int _coolGreyPrimaryValue = 0xFF6B7280;
 
-  /// The grey primary color and swatch.
+  /// The grey primary color and swatch
   static const MaterialColor grey = MaterialColor(
     _greyPrimaryValue,
     <int, Color>{
@@ -116,7 +116,7 @@ abstract class StiloColor {
   );
   static const int _greyPrimaryValue = 0xFF71717A;
 
-  /// The trueGrey primary color and swatch.
+  /// The trueGrey primary color and swatch
   static const MaterialColor trueGrey = MaterialColor(
     _trueGreyPrimaryValue,
     <int, Color>{
@@ -133,7 +133,7 @@ abstract class StiloColor {
   );
   static const int _trueGreyPrimaryValue = 0xFF737373;
 
-  /// The warmGrey primary color and swatch.
+  /// The warmGrey primary color and swatch
   static const MaterialColor warmGrey = MaterialColor(
     _warmGreyPrimaryValue,
     <int, Color>{
@@ -150,7 +150,7 @@ abstract class StiloColor {
   );
   static const int _warmGreyPrimaryValue = 0xFF78716C;
 
-  /// The red primary color and swatch.
+  /// The red primary color and swatch
   static const MaterialColor red = MaterialColor(
     _redPrimaryValue,
     <int, Color>{
@@ -167,7 +167,7 @@ abstract class StiloColor {
   );
   static const int _redPrimaryValue = 0xFFEF4444;
 
-  /// The orange primary color and swatch.
+  /// The orange primary color and swatch
   static const MaterialColor orange = MaterialColor(
     _orangePrimaryValue,
     <int, Color>{
@@ -184,7 +184,7 @@ abstract class StiloColor {
   );
   static const int _orangePrimaryValue = 0xFFF97316;
 
-  /// The amber primary color and swatch.
+  /// The amber primary color and swatch
   static const MaterialColor amber = MaterialColor(
     _amberPrimaryValue,
     <int, Color>{
@@ -201,7 +201,7 @@ abstract class StiloColor {
   );
   static const int _amberPrimaryValue = 0xFFF59E0B;
 
-  /// The yellow primary color and swatch.
+  /// The yellow primary color and swatch
   static const MaterialColor yellow = MaterialColor(
     _yellowPrimaryValue,
     <int, Color>{
@@ -218,7 +218,7 @@ abstract class StiloColor {
   );
   static const int _yellowPrimaryValue = 0xFFEAB308;
 
-  /// The lime primary color and swatch.
+  /// The lime primary color and swatch
   static const MaterialColor lime = MaterialColor(
     _limePrimaryValue,
     <int, Color>{
@@ -235,7 +235,7 @@ abstract class StiloColor {
   );
   static const int _limePrimaryValue = 0xFF84CC16;
 
-  /// The green primary color and swatch.
+  /// The green primary color and swatch
   static const MaterialColor green = MaterialColor(
     _greenPrimaryValue,
     <int, Color>{
@@ -252,7 +252,7 @@ abstract class StiloColor {
   );
   static const int _greenPrimaryValue = 0xFF22C55E;
 
-  /// The emerald primary color and swatch.
+  /// The emerald primary color and swatch
   static const MaterialColor emerald = MaterialColor(
     _emeraldPrimaryValue,
     <int, Color>{
@@ -269,7 +269,7 @@ abstract class StiloColor {
   );
   static const int _emeraldPrimaryValue = 0xFF10B981;
 
-  /// The teal primary color and swatch.
+  /// The teal primary color and swatch
   static const MaterialColor teal = MaterialColor(
     _tealPrimaryValue,
     <int, Color>{
@@ -286,7 +286,7 @@ abstract class StiloColor {
   );
   static const int _tealPrimaryValue = 0xFF14B8A6;
 
-  /// The cyan primary color and swatch.
+  /// The cyan primary color and swatch
   static const MaterialColor cyan = MaterialColor(
     _cyanPrimaryValue,
     <int, Color>{
@@ -303,7 +303,7 @@ abstract class StiloColor {
   );
   static const int _cyanPrimaryValue = 0xFF06B6D4;
 
-  /// The lightBlue primary color and swatch.
+  /// The lightBlue primary color and swatch
   static const MaterialColor lightBlue = MaterialColor(
     _lightBluePrimaryValue,
     <int, Color>{
@@ -320,7 +320,7 @@ abstract class StiloColor {
   );
   static const int _lightBluePrimaryValue = 0xFF0EA5E9;
 
-  /// The blue primary color and swatch.
+  /// The blue primary color and swatch
   static const MaterialColor blue = MaterialColor(
     _bluePrimaryValue,
     <int, Color>{
@@ -337,7 +337,7 @@ abstract class StiloColor {
   );
   static const int _bluePrimaryValue = 0xFF3B82F6;
 
-  /// The indigo primary color and swatch.
+  /// The indigo primary color and swatch
   static const MaterialColor indigo = MaterialColor(
     _indigoPrimaryValue,
     <int, Color>{
@@ -354,7 +354,7 @@ abstract class StiloColor {
   );
   static const int _indigoPrimaryValue = 0xFF6366F1;
 
-  /// The violet primary color and swatch.
+  /// The violet primary color and swatch
   static const MaterialColor violet = MaterialColor(
     _violetPrimaryValue,
     <int, Color>{
@@ -371,7 +371,7 @@ abstract class StiloColor {
   );
   static const int _violetPrimaryValue = 0xFF8B5CF6;
 
-  /// The purple primary color and swatch.
+  /// The purple primary color and swatch
   static const MaterialColor purple = MaterialColor(
     _purplePrimaryValue,
     <int, Color>{
@@ -388,7 +388,7 @@ abstract class StiloColor {
   );
   static const int _purplePrimaryValue = 0xFFA855F7;
 
-  /// The fuchsia primary color and swatch.
+  /// The fuchsia primary color and swatch
   static const MaterialColor fuchsia = MaterialColor(
     _fuchsiaPrimaryValue,
     <int, Color>{
