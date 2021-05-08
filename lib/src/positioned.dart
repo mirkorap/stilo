@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stilo/src/config.dart';
 
 /// A class that constructs [Positioned] widgets based on spacing constants
 abstract class StiloPositioned {
@@ -9,10 +10,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 0.0,
-      right: 0.0,
-      bottom: 0.0,
-      left: 0.0,
+      top: StiloConfig.space0,
+      right: StiloConfig.space0,
+      bottom: StiloConfig.space0,
+      left: StiloConfig.space0,
     );
   }
 
@@ -23,8 +24,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 0.0,
-      bottom: 0.0,
+      top: StiloConfig.space0,
+      bottom: StiloConfig.space0,
     );
   }
 
@@ -35,8 +36,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 0.0,
-      left: 0.0,
+      right: StiloConfig.space0,
+      left: StiloConfig.space0,
     );
   }
 
@@ -45,7 +46,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 0.0,
+      top: StiloConfig.space0,
     );
   }
 
@@ -54,7 +55,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 0.0,
+      right: StiloConfig.space0,
     );
   }
 
@@ -63,7 +64,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 0.0,
+      bottom: StiloConfig.space0,
     );
   }
 
@@ -72,7 +73,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 0.0,
+      left: StiloConfig.space0,
     );
   }
 
@@ -83,10 +84,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 4.0,
-      right: 4.0,
-      bottom: 4.0,
-      left: 4.0,
+      top: StiloConfig.space1,
+      right: StiloConfig.space1,
+      bottom: StiloConfig.space1,
+      left: StiloConfig.space1,
     );
   }
 
@@ -97,8 +98,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 4.0,
-      bottom: 4.0,
+      top: StiloConfig.space1,
+      bottom: StiloConfig.space1,
     );
   }
 
@@ -109,8 +110,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 4.0,
-      left: 4.0,
+      right: StiloConfig.space1,
+      left: StiloConfig.space1,
     );
   }
 
@@ -119,7 +120,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 4.0,
+      top: StiloConfig.space1,
     );
   }
 
@@ -128,7 +129,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 4.0,
+      right: StiloConfig.space1,
     );
   }
 
@@ -137,7 +138,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 4.0,
+      bottom: StiloConfig.space1,
     );
   }
 
@@ -146,7 +147,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 4.0,
+      left: StiloConfig.space1,
     );
   }
 
@@ -157,10 +158,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -4.0,
-      right: -4.0,
-      bottom: -4.0,
-      left: -4.0,
+      top: StiloConfig.space1Neg,
+      right: StiloConfig.space1Neg,
+      bottom: StiloConfig.space1Neg,
+      left: StiloConfig.space1Neg,
     );
   }
 
@@ -171,8 +172,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -4.0,
-      bottom: -4.0,
+      top: StiloConfig.space1Neg,
+      bottom: StiloConfig.space1Neg,
     );
   }
 
@@ -183,8 +184,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -4.0,
-      left: -4.0,
+      right: StiloConfig.space1Neg,
+      left: StiloConfig.space1Neg,
     );
   }
 
@@ -193,7 +194,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -4.0,
+      top: StiloConfig.space1Neg,
     );
   }
 
@@ -202,7 +203,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -4.0,
+      right: StiloConfig.space1Neg,
     );
   }
 
@@ -211,7 +212,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -4.0,
+      bottom: StiloConfig.space1Neg,
     );
   }
 
@@ -220,7 +221,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -4.0,
+      left: StiloConfig.space1Neg,
     );
   }
 
@@ -231,10 +232,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 8.0,
-      right: 8.0,
-      bottom: 8.0,
-      left: 8.0,
+      top: StiloConfig.space2,
+      right: StiloConfig.space2,
+      bottom: StiloConfig.space2,
+      left: StiloConfig.space2,
     );
   }
 
@@ -245,8 +246,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 8.0,
-      bottom: 8.0,
+      top: StiloConfig.space2,
+      bottom: StiloConfig.space2,
     );
   }
 
@@ -257,8 +258,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 8.0,
-      left: 8.0,
+      right: StiloConfig.space2,
+      left: StiloConfig.space2,
     );
   }
 
@@ -267,7 +268,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 8.0,
+      top: StiloConfig.space2,
     );
   }
 
@@ -276,7 +277,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 8.0,
+      right: StiloConfig.space2,
     );
   }
 
@@ -285,7 +286,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 8.0,
+      bottom: StiloConfig.space2,
     );
   }
 
@@ -294,7 +295,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 8.0,
+      left: StiloConfig.space2,
     );
   }
 
@@ -305,10 +306,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -8.0,
-      right: -8.0,
-      bottom: -8.0,
-      left: -8.0,
+      top: StiloConfig.space2Neg,
+      right: StiloConfig.space2Neg,
+      bottom: StiloConfig.space2Neg,
+      left: StiloConfig.space2Neg,
     );
   }
 
@@ -319,8 +320,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -8.0,
-      bottom: -8.0,
+      top: StiloConfig.space2Neg,
+      bottom: StiloConfig.space2Neg,
     );
   }
 
@@ -331,8 +332,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -8.0,
-      left: -8.0,
+      right: StiloConfig.space2Neg,
+      left: StiloConfig.space2Neg,
     );
   }
 
@@ -341,7 +342,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -8.0,
+      top: StiloConfig.space2Neg,
     );
   }
 
@@ -350,7 +351,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -8.0,
+      right: StiloConfig.space2Neg,
     );
   }
 
@@ -359,7 +360,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -8.0,
+      bottom: StiloConfig.space2Neg,
     );
   }
 
@@ -368,7 +369,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -8.0,
+      left: StiloConfig.space2Neg,
     );
   }
 
@@ -379,10 +380,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 12.0,
-      right: 12.0,
-      bottom: 12.0,
-      left: 12.0,
+      top: StiloConfig.space3,
+      right: StiloConfig.space3,
+      bottom: StiloConfig.space3,
+      left: StiloConfig.space3,
     );
   }
 
@@ -393,8 +394,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 12.0,
-      bottom: 12.0,
+      top: StiloConfig.space3,
+      bottom: StiloConfig.space3,
     );
   }
 
@@ -405,8 +406,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 12.0,
-      left: 12.0,
+      right: StiloConfig.space3,
+      left: StiloConfig.space3,
     );
   }
 
@@ -415,7 +416,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 12.0,
+      top: StiloConfig.space3,
     );
   }
 
@@ -424,7 +425,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 12.0,
+      right: StiloConfig.space3,
     );
   }
 
@@ -433,7 +434,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 12.0,
+      bottom: StiloConfig.space3,
     );
   }
 
@@ -442,7 +443,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 12.0,
+      left: StiloConfig.space3,
     );
   }
 
@@ -453,10 +454,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -12.0,
-      right: -12.0,
-      bottom: -12.0,
-      left: -12.0,
+      top: StiloConfig.space3Neg,
+      right: StiloConfig.space3Neg,
+      bottom: StiloConfig.space3Neg,
+      left: StiloConfig.space3Neg,
     );
   }
 
@@ -467,8 +468,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -12.0,
-      bottom: -12.0,
+      top: StiloConfig.space3Neg,
+      bottom: StiloConfig.space3Neg,
     );
   }
 
@@ -479,8 +480,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -12.0,
-      left: -12.0,
+      right: StiloConfig.space3Neg,
+      left: StiloConfig.space3Neg,
     );
   }
 
@@ -489,7 +490,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -12.0,
+      top: StiloConfig.space3Neg,
     );
   }
 
@@ -498,7 +499,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -12.0,
+      right: StiloConfig.space3Neg,
     );
   }
 
@@ -507,7 +508,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -12.0,
+      bottom: StiloConfig.space3Neg,
     );
   }
 
@@ -516,7 +517,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -12.0,
+      left: StiloConfig.space3Neg,
     );
   }
 
@@ -527,10 +528,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 16.0,
-      right: 16.0,
-      bottom: 16.0,
-      left: 16.0,
+      top: StiloConfig.space4,
+      right: StiloConfig.space4,
+      bottom: StiloConfig.space4,
+      left: StiloConfig.space4,
     );
   }
 
@@ -541,8 +542,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 16.0,
-      bottom: 16.0,
+      top: StiloConfig.space4,
+      bottom: StiloConfig.space4,
     );
   }
 
@@ -553,8 +554,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 16.0,
-      left: 16.0,
+      right: StiloConfig.space4,
+      left: StiloConfig.space4,
     );
   }
 
@@ -563,7 +564,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 16.0,
+      top: StiloConfig.space4,
     );
   }
 
@@ -572,7 +573,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 16.0,
+      right: StiloConfig.space4,
     );
   }
 
@@ -581,7 +582,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 16.0,
+      bottom: StiloConfig.space4,
     );
   }
 
@@ -590,7 +591,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 16.0,
+      left: StiloConfig.space4,
     );
   }
 
@@ -601,10 +602,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -16.0,
-      right: -16.0,
-      bottom: -16.0,
-      left: -16.0,
+      top: StiloConfig.space4Neg,
+      right: StiloConfig.space4Neg,
+      bottom: StiloConfig.space4Neg,
+      left: StiloConfig.space4Neg,
     );
   }
 
@@ -615,8 +616,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -16.0,
-      bottom: -16.0,
+      top: StiloConfig.space4Neg,
+      bottom: StiloConfig.space4Neg,
     );
   }
 
@@ -627,8 +628,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -16.0,
-      left: -16.0,
+      right: StiloConfig.space4Neg,
+      left: StiloConfig.space4Neg,
     );
   }
 
@@ -637,7 +638,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -16.0,
+      top: StiloConfig.space4Neg,
     );
   }
 
@@ -646,7 +647,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -16.0,
+      right: StiloConfig.space4Neg,
     );
   }
 
@@ -655,7 +656,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -16.0,
+      bottom: StiloConfig.space4Neg,
     );
   }
 
@@ -664,7 +665,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -16.0,
+      left: StiloConfig.space4Neg,
     );
   }
 
@@ -675,10 +676,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 20.0,
-      right: 20.0,
-      bottom: 20.0,
-      left: 20.0,
+      top: StiloConfig.space5,
+      right: StiloConfig.space5,
+      bottom: StiloConfig.space5,
+      left: StiloConfig.space5,
     );
   }
 
@@ -689,8 +690,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 20.0,
-      bottom: 20.0,
+      top: StiloConfig.space5,
+      bottom: StiloConfig.space5,
     );
   }
 
@@ -701,8 +702,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 20.0,
-      left: 20.0,
+      right: StiloConfig.space5,
+      left: StiloConfig.space5,
     );
   }
 
@@ -711,7 +712,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 20.0,
+      top: StiloConfig.space5,
     );
   }
 
@@ -720,7 +721,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 20.0,
+      right: StiloConfig.space5,
     );
   }
 
@@ -729,7 +730,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 20.0,
+      bottom: StiloConfig.space5,
     );
   }
 
@@ -738,7 +739,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 20.0,
+      left: StiloConfig.space5,
     );
   }
 
@@ -749,10 +750,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -20.0,
-      right: -20.0,
-      bottom: -20.0,
-      left: -20.0,
+      top: StiloConfig.space5Neg,
+      right: StiloConfig.space5Neg,
+      bottom: StiloConfig.space5Neg,
+      left: StiloConfig.space5Neg,
     );
   }
 
@@ -763,8 +764,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -20.0,
-      bottom: -20.0,
+      top: StiloConfig.space5Neg,
+      bottom: StiloConfig.space5Neg,
     );
   }
 
@@ -775,8 +776,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -20.0,
-      left: -20.0,
+      right: StiloConfig.space5Neg,
+      left: StiloConfig.space5Neg,
     );
   }
 
@@ -785,7 +786,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -20.0,
+      top: StiloConfig.space5Neg,
     );
   }
 
@@ -794,7 +795,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -20.0,
+      right: StiloConfig.space5Neg,
     );
   }
 
@@ -803,7 +804,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -20.0,
+      bottom: StiloConfig.space5Neg,
     );
   }
 
@@ -812,7 +813,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -20.0,
+      left: StiloConfig.space5Neg,
     );
   }
 
@@ -823,10 +824,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 24.0,
-      right: 24.0,
-      bottom: 24.0,
-      left: 24.0,
+      top: StiloConfig.space6,
+      right: StiloConfig.space6,
+      bottom: StiloConfig.space6,
+      left: StiloConfig.space6,
     );
   }
 
@@ -837,8 +838,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 24.0,
-      bottom: 24.0,
+      top: StiloConfig.space6,
+      bottom: StiloConfig.space6,
     );
   }
 
@@ -849,8 +850,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 24.0,
-      left: 24.0,
+      right: StiloConfig.space6,
+      left: StiloConfig.space6,
     );
   }
 
@@ -859,7 +860,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 24.0,
+      top: StiloConfig.space6,
     );
   }
 
@@ -868,7 +869,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 24.0,
+      right: StiloConfig.space6,
     );
   }
 
@@ -877,7 +878,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 24.0,
+      bottom: StiloConfig.space6,
     );
   }
 
@@ -886,7 +887,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 24.0,
+      left: StiloConfig.space6,
     );
   }
 
@@ -897,10 +898,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -24.0,
-      right: -24.0,
-      bottom: -24.0,
-      left: -24.0,
+      top: StiloConfig.space6Neg,
+      right: StiloConfig.space6Neg,
+      bottom: StiloConfig.space6Neg,
+      left: StiloConfig.space6Neg,
     );
   }
 
@@ -911,8 +912,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -24.0,
-      bottom: -24.0,
+      top: StiloConfig.space6Neg,
+      bottom: StiloConfig.space6Neg,
     );
   }
 
@@ -923,8 +924,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -24.0,
-      left: -24.0,
+      right: StiloConfig.space6Neg,
+      left: StiloConfig.space6Neg,
     );
   }
 
@@ -933,7 +934,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -24.0,
+      top: StiloConfig.space6Neg,
     );
   }
 
@@ -942,7 +943,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -24.0,
+      right: StiloConfig.space6Neg,
     );
   }
 
@@ -951,7 +952,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -24.0,
+      bottom: StiloConfig.space6Neg,
     );
   }
 
@@ -960,7 +961,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -24.0,
+      left: StiloConfig.space6Neg,
     );
   }
 
@@ -971,10 +972,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 28.0,
-      right: 28.0,
-      bottom: 28.0,
-      left: 28.0,
+      top: StiloConfig.space7,
+      right: StiloConfig.space7,
+      bottom: StiloConfig.space7,
+      left: StiloConfig.space7,
     );
   }
 
@@ -985,8 +986,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 28.0,
-      bottom: 28.0,
+      top: StiloConfig.space7,
+      bottom: StiloConfig.space7,
     );
   }
 
@@ -997,8 +998,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 28.0,
-      left: 28.0,
+      right: StiloConfig.space7,
+      left: StiloConfig.space7,
     );
   }
 
@@ -1007,7 +1008,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 28.0,
+      top: StiloConfig.space7,
     );
   }
 
@@ -1016,7 +1017,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 28.0,
+      right: StiloConfig.space7,
     );
   }
 
@@ -1025,7 +1026,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 28.0,
+      bottom: StiloConfig.space7,
     );
   }
 
@@ -1034,7 +1035,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 28.0,
+      left: StiloConfig.space7,
     );
   }
 
@@ -1045,10 +1046,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -28.0,
-      right: -28.0,
-      bottom: -28.0,
-      left: -28.0,
+      top: StiloConfig.space7Neg,
+      right: StiloConfig.space7Neg,
+      bottom: StiloConfig.space7Neg,
+      left: StiloConfig.space7Neg,
     );
   }
 
@@ -1059,8 +1060,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -28.0,
-      bottom: -28.0,
+      top: StiloConfig.space7Neg,
+      bottom: StiloConfig.space7Neg,
     );
   }
 
@@ -1071,8 +1072,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -28.0,
-      left: -28.0,
+      right: StiloConfig.space7Neg,
+      left: StiloConfig.space7Neg,
     );
   }
 
@@ -1081,7 +1082,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -28.0,
+      top: StiloConfig.space7Neg,
     );
   }
 
@@ -1090,7 +1091,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -28.0,
+      right: StiloConfig.space7Neg,
     );
   }
 
@@ -1099,7 +1100,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -28.0,
+      bottom: StiloConfig.space7Neg,
     );
   }
 
@@ -1108,7 +1109,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -28.0,
+      left: StiloConfig.space7Neg,
     );
   }
 
@@ -1119,10 +1120,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 32.0,
-      right: 32.0,
-      bottom: 32.0,
-      left: 32.0,
+      top: StiloConfig.space8,
+      right: StiloConfig.space8,
+      bottom: StiloConfig.space8,
+      left: StiloConfig.space8,
     );
   }
 
@@ -1133,8 +1134,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 32.0,
-      bottom: 32.0,
+      top: StiloConfig.space8,
+      bottom: StiloConfig.space8,
     );
   }
 
@@ -1145,8 +1146,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 32.0,
-      left: 32.0,
+      right: StiloConfig.space8,
+      left: StiloConfig.space8,
     );
   }
 
@@ -1155,7 +1156,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 32.0,
+      top: StiloConfig.space8,
     );
   }
 
@@ -1164,7 +1165,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 32.0,
+      right: StiloConfig.space8,
     );
   }
 
@@ -1173,7 +1174,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 32.0,
+      bottom: StiloConfig.space8,
     );
   }
 
@@ -1182,7 +1183,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 32.0,
+      left: StiloConfig.space8,
     );
   }
 
@@ -1193,10 +1194,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -32.0,
-      right: -32.0,
-      bottom: -32.0,
-      left: -32.0,
+      top: StiloConfig.space8Neg,
+      right: StiloConfig.space8Neg,
+      bottom: StiloConfig.space8Neg,
+      left: StiloConfig.space8Neg,
     );
   }
 
@@ -1207,8 +1208,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -32.0,
-      bottom: -32.0,
+      top: StiloConfig.space8Neg,
+      bottom: StiloConfig.space8Neg,
     );
   }
 
@@ -1219,8 +1220,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -32.0,
-      left: -32.0,
+      right: StiloConfig.space8Neg,
+      left: StiloConfig.space8Neg,
     );
   }
 
@@ -1229,7 +1230,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -32.0,
+      top: StiloConfig.space8Neg,
     );
   }
 
@@ -1238,7 +1239,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -32.0,
+      right: StiloConfig.space8Neg,
     );
   }
 
@@ -1247,7 +1248,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -32.0,
+      bottom: StiloConfig.space8Neg,
     );
   }
 
@@ -1256,7 +1257,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -32.0,
+      left: StiloConfig.space8Neg,
     );
   }
 
@@ -1267,10 +1268,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 36.0,
-      right: 36.0,
-      bottom: 36.0,
-      left: 36.0,
+      top: StiloConfig.space9,
+      right: StiloConfig.space9,
+      bottom: StiloConfig.space9,
+      left: StiloConfig.space9,
     );
   }
 
@@ -1281,8 +1282,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 36.0,
-      bottom: 36.0,
+      top: StiloConfig.space9,
+      bottom: StiloConfig.space9,
     );
   }
 
@@ -1293,8 +1294,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 36.0,
-      left: 36.0,
+      right: StiloConfig.space9,
+      left: StiloConfig.space9,
     );
   }
 
@@ -1303,7 +1304,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 36.0,
+      top: StiloConfig.space9,
     );
   }
 
@@ -1312,7 +1313,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 36.0,
+      right: StiloConfig.space9,
     );
   }
 
@@ -1321,7 +1322,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 36.0,
+      bottom: StiloConfig.space9,
     );
   }
 
@@ -1330,7 +1331,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 36.0,
+      left: StiloConfig.space9,
     );
   }
 
@@ -1341,10 +1342,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -36.0,
-      right: -36.0,
-      bottom: -36.0,
-      left: -36.0,
+      top: StiloConfig.space9Neg,
+      right: StiloConfig.space9Neg,
+      bottom: StiloConfig.space9Neg,
+      left: StiloConfig.space9Neg,
     );
   }
 
@@ -1355,8 +1356,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -36.0,
-      bottom: -36.0,
+      top: StiloConfig.space9Neg,
+      bottom: StiloConfig.space9Neg,
     );
   }
 
@@ -1367,8 +1368,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -36.0,
-      left: -36.0,
+      right: StiloConfig.space9Neg,
+      left: StiloConfig.space9Neg,
     );
   }
 
@@ -1377,7 +1378,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -36.0,
+      top: StiloConfig.space9Neg,
     );
   }
 
@@ -1386,7 +1387,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -36.0,
+      right: StiloConfig.space9Neg,
     );
   }
 
@@ -1395,7 +1396,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -36.0,
+      bottom: StiloConfig.space9Neg,
     );
   }
 
@@ -1404,7 +1405,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -36.0,
+      left: StiloConfig.space9Neg,
     );
   }
 
@@ -1415,10 +1416,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 40.0,
-      right: 40.0,
-      bottom: 40.0,
-      left: 40.0,
+      top: StiloConfig.space10,
+      right: StiloConfig.space10,
+      bottom: StiloConfig.space10,
+      left: StiloConfig.space10,
     );
   }
 
@@ -1429,8 +1430,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 40.0,
-      bottom: 40.0,
+      top: StiloConfig.space10,
+      bottom: StiloConfig.space10,
     );
   }
 
@@ -1441,8 +1442,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 40.0,
-      left: 40.0,
+      right: StiloConfig.space10,
+      left: StiloConfig.space10,
     );
   }
 
@@ -1451,7 +1452,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 40.0,
+      top: StiloConfig.space10,
     );
   }
 
@@ -1460,7 +1461,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 40.0,
+      right: StiloConfig.space10,
     );
   }
 
@@ -1469,7 +1470,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 40.0,
+      bottom: StiloConfig.space10,
     );
   }
 
@@ -1478,7 +1479,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 40.0,
+      left: StiloConfig.space10,
     );
   }
 
@@ -1489,10 +1490,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -40.0,
-      right: -40.0,
-      bottom: -40.0,
-      left: -40.0,
+      top: StiloConfig.space10Neg,
+      right: StiloConfig.space10Neg,
+      bottom: StiloConfig.space10Neg,
+      left: StiloConfig.space10Neg,
     );
   }
 
@@ -1503,8 +1504,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -40.0,
-      bottom: -40.0,
+      top: StiloConfig.space10Neg,
+      bottom: StiloConfig.space10Neg,
     );
   }
 
@@ -1515,8 +1516,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -40.0,
-      left: -40.0,
+      right: StiloConfig.space10Neg,
+      left: StiloConfig.space10Neg,
     );
   }
 
@@ -1525,7 +1526,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -40.0,
+      top: StiloConfig.space10Neg,
     );
   }
 
@@ -1534,7 +1535,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -40.0,
+      right: StiloConfig.space10Neg,
     );
   }
 
@@ -1543,7 +1544,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -40.0,
+      bottom: StiloConfig.space10Neg,
     );
   }
 
@@ -1552,7 +1553,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -40.0,
+      left: StiloConfig.space10Neg,
     );
   }
 
@@ -1563,10 +1564,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 44.0,
-      right: 44.0,
-      bottom: 44.0,
-      left: 44.0,
+      top: StiloConfig.space11,
+      right: StiloConfig.space11,
+      bottom: StiloConfig.space11,
+      left: StiloConfig.space11,
     );
   }
 
@@ -1577,8 +1578,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 44.0,
-      bottom: 44.0,
+      top: StiloConfig.space11,
+      bottom: StiloConfig.space11,
     );
   }
 
@@ -1589,8 +1590,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 44.0,
-      left: 44.0,
+      right: StiloConfig.space11,
+      left: StiloConfig.space11,
     );
   }
 
@@ -1599,7 +1600,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 44.0,
+      top: StiloConfig.space11,
     );
   }
 
@@ -1608,7 +1609,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 44.0,
+      right: StiloConfig.space11,
     );
   }
 
@@ -1617,7 +1618,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 44.0,
+      bottom: StiloConfig.space11,
     );
   }
 
@@ -1626,7 +1627,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 44.0,
+      left: StiloConfig.space11,
     );
   }
 
@@ -1637,10 +1638,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -44.0,
-      right: -44.0,
-      bottom: -44.0,
-      left: -44.0,
+      top: StiloConfig.space11Neg,
+      right: StiloConfig.space11Neg,
+      bottom: StiloConfig.space11Neg,
+      left: StiloConfig.space11Neg,
     );
   }
 
@@ -1651,8 +1652,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -44.0,
-      bottom: -44.0,
+      top: StiloConfig.space11Neg,
+      bottom: StiloConfig.space11Neg,
     );
   }
 
@@ -1663,8 +1664,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -44.0,
-      left: -44.0,
+      right: StiloConfig.space11Neg,
+      left: StiloConfig.space11Neg,
     );
   }
 
@@ -1673,7 +1674,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -44.0,
+      top: StiloConfig.space11Neg,
     );
   }
 
@@ -1682,7 +1683,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -44.0,
+      right: StiloConfig.space11Neg,
     );
   }
 
@@ -1691,7 +1692,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -44.0,
+      bottom: StiloConfig.space11Neg,
     );
   }
 
@@ -1700,7 +1701,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -44.0,
+      left: StiloConfig.space11Neg,
     );
   }
 
@@ -1711,10 +1712,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 48.0,
-      right: 48.0,
-      bottom: 48.0,
-      left: 48.0,
+      top: StiloConfig.space12,
+      right: StiloConfig.space12,
+      bottom: StiloConfig.space12,
+      left: StiloConfig.space12,
     );
   }
 
@@ -1725,8 +1726,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 48.0,
-      bottom: 48.0,
+      top: StiloConfig.space12,
+      bottom: StiloConfig.space12,
     );
   }
 
@@ -1737,8 +1738,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 48.0,
-      left: 48.0,
+      right: StiloConfig.space12,
+      left: StiloConfig.space12,
     );
   }
 
@@ -1747,7 +1748,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 48.0,
+      top: StiloConfig.space12,
     );
   }
 
@@ -1756,7 +1757,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 48.0,
+      right: StiloConfig.space12,
     );
   }
 
@@ -1765,7 +1766,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 48.0,
+      bottom: StiloConfig.space12,
     );
   }
 
@@ -1774,7 +1775,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 48.0,
+      left: StiloConfig.space12,
     );
   }
 
@@ -1785,10 +1786,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -48.0,
-      right: -48.0,
-      bottom: -48.0,
-      left: -48.0,
+      top: StiloConfig.space12Neg,
+      right: StiloConfig.space12Neg,
+      bottom: StiloConfig.space12Neg,
+      left: StiloConfig.space12Neg,
     );
   }
 
@@ -1799,8 +1800,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -48.0,
-      bottom: -48.0,
+      top: StiloConfig.space12Neg,
+      bottom: StiloConfig.space12Neg,
     );
   }
 
@@ -1811,8 +1812,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -48.0,
-      left: -48.0,
+      right: StiloConfig.space12Neg,
+      left: StiloConfig.space12Neg,
     );
   }
 
@@ -1821,7 +1822,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -48.0,
+      top: StiloConfig.space12Neg,
     );
   }
 
@@ -1830,7 +1831,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -48.0,
+      right: StiloConfig.space12Neg,
     );
   }
 
@@ -1839,7 +1840,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -48.0,
+      bottom: StiloConfig.space12Neg,
     );
   }
 
@@ -1848,7 +1849,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -48.0,
+      left: StiloConfig.space12Neg,
     );
   }
 
@@ -1859,10 +1860,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 56.0,
-      right: 56.0,
-      bottom: 56.0,
-      left: 56.0,
+      top: StiloConfig.space14,
+      right: StiloConfig.space14,
+      bottom: StiloConfig.space14,
+      left: StiloConfig.space14,
     );
   }
 
@@ -1873,8 +1874,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 56.0,
-      bottom: 56.0,
+      top: StiloConfig.space14,
+      bottom: StiloConfig.space14,
     );
   }
 
@@ -1885,8 +1886,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 56.0,
-      left: 56.0,
+      right: StiloConfig.space14,
+      left: StiloConfig.space14,
     );
   }
 
@@ -1895,7 +1896,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 56.0,
+      top: StiloConfig.space14,
     );
   }
 
@@ -1904,7 +1905,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 56.0,
+      right: StiloConfig.space14,
     );
   }
 
@@ -1913,7 +1914,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 56.0,
+      bottom: StiloConfig.space14,
     );
   }
 
@@ -1922,7 +1923,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 56.0,
+      left: StiloConfig.space14,
     );
   }
 
@@ -1933,10 +1934,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -56.0,
-      right: -56.0,
-      bottom: -56.0,
-      left: -56.0,
+      top: StiloConfig.space14Neg,
+      right: StiloConfig.space14Neg,
+      bottom: StiloConfig.space14Neg,
+      left: StiloConfig.space14Neg,
     );
   }
 
@@ -1947,8 +1948,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -56.0,
-      bottom: -56.0,
+      top: StiloConfig.space14Neg,
+      bottom: StiloConfig.space14Neg,
     );
   }
 
@@ -1959,8 +1960,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -56.0,
-      left: -56.0,
+      right: StiloConfig.space14Neg,
+      left: StiloConfig.space14Neg,
     );
   }
 
@@ -1969,7 +1970,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -56.0,
+      top: StiloConfig.space14Neg,
     );
   }
 
@@ -1978,7 +1979,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -56.0,
+      right: StiloConfig.space14Neg,
     );
   }
 
@@ -1987,7 +1988,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -56.0,
+      bottom: StiloConfig.space14Neg,
     );
   }
 
@@ -1996,7 +1997,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -56.0,
+      left: StiloConfig.space14Neg,
     );
   }
 
@@ -2007,10 +2008,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 64.0,
-      right: 64.0,
-      bottom: 64.0,
-      left: 64.0,
+      top: StiloConfig.space16,
+      right: StiloConfig.space16,
+      bottom: StiloConfig.space16,
+      left: StiloConfig.space16,
     );
   }
 
@@ -2021,8 +2022,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 64.0,
-      bottom: 64.0,
+      top: StiloConfig.space16,
+      bottom: StiloConfig.space16,
     );
   }
 
@@ -2033,8 +2034,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 64.0,
-      left: 64.0,
+      right: StiloConfig.space16,
+      left: StiloConfig.space16,
     );
   }
 
@@ -2043,7 +2044,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 64.0,
+      top: StiloConfig.space16,
     );
   }
 
@@ -2052,7 +2053,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 64.0,
+      right: StiloConfig.space16,
     );
   }
 
@@ -2061,7 +2062,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 64.0,
+      bottom: StiloConfig.space16,
     );
   }
 
@@ -2070,7 +2071,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 64.0,
+      left: StiloConfig.space16,
     );
   }
 
@@ -2081,10 +2082,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -64.0,
-      right: -64.0,
-      bottom: -64.0,
-      left: -64.0,
+      top: StiloConfig.space16Neg,
+      right: StiloConfig.space16Neg,
+      bottom: StiloConfig.space16Neg,
+      left: StiloConfig.space16Neg,
     );
   }
 
@@ -2095,8 +2096,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -64.0,
-      bottom: -64.0,
+      top: StiloConfig.space16Neg,
+      bottom: StiloConfig.space16Neg,
     );
   }
 
@@ -2107,8 +2108,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -64.0,
-      left: -64.0,
+      right: StiloConfig.space16Neg,
+      left: StiloConfig.space16Neg,
     );
   }
 
@@ -2117,7 +2118,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -64.0,
+      top: StiloConfig.space16Neg,
     );
   }
 
@@ -2126,7 +2127,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -64.0,
+      right: StiloConfig.space16Neg,
     );
   }
 
@@ -2135,7 +2136,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -64.0,
+      bottom: StiloConfig.space16Neg,
     );
   }
 
@@ -2144,7 +2145,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -64.0,
+      left: StiloConfig.space16Neg,
     );
   }
 
@@ -2155,10 +2156,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 80.0,
-      right: 80.0,
-      bottom: 80.0,
-      left: 80.0,
+      top: StiloConfig.space20,
+      right: StiloConfig.space20,
+      bottom: StiloConfig.space20,
+      left: StiloConfig.space20,
     );
   }
 
@@ -2169,8 +2170,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 80.0,
-      bottom: 80.0,
+      top: StiloConfig.space20,
+      bottom: StiloConfig.space20,
     );
   }
 
@@ -2181,8 +2182,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 80.0,
-      left: 80.0,
+      right: StiloConfig.space20,
+      left: StiloConfig.space20,
     );
   }
 
@@ -2191,7 +2192,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 80.0,
+      top: StiloConfig.space20,
     );
   }
 
@@ -2200,7 +2201,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 80.0,
+      right: StiloConfig.space20,
     );
   }
 
@@ -2209,7 +2210,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 80.0,
+      bottom: StiloConfig.space20,
     );
   }
 
@@ -2218,7 +2219,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 80.0,
+      left: StiloConfig.space20,
     );
   }
 
@@ -2229,10 +2230,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -80.0,
-      right: -80.0,
-      bottom: -80.0,
-      left: -80.0,
+      top: StiloConfig.space20Neg,
+      right: StiloConfig.space20Neg,
+      bottom: StiloConfig.space20Neg,
+      left: StiloConfig.space20Neg,
     );
   }
 
@@ -2243,8 +2244,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -80.0,
-      bottom: -80.0,
+      top: StiloConfig.space20Neg,
+      bottom: StiloConfig.space20Neg,
     );
   }
 
@@ -2255,8 +2256,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -80.0,
-      left: -80.0,
+      right: StiloConfig.space20Neg,
+      left: StiloConfig.space20Neg,
     );
   }
 
@@ -2265,7 +2266,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -80.0,
+      top: StiloConfig.space20Neg,
     );
   }
 
@@ -2274,7 +2275,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -80.0,
+      right: StiloConfig.space20Neg,
     );
   }
 
@@ -2283,7 +2284,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -80.0,
+      bottom: StiloConfig.space20Neg,
     );
   }
 
@@ -2292,7 +2293,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -80.0,
+      left: StiloConfig.space20Neg,
     );
   }
 
@@ -2303,10 +2304,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 96.0,
-      right: 96.0,
-      bottom: 96.0,
-      left: 96.0,
+      top: StiloConfig.space24,
+      right: StiloConfig.space24,
+      bottom: StiloConfig.space24,
+      left: StiloConfig.space24,
     );
   }
 
@@ -2317,8 +2318,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 96.0,
-      bottom: 96.0,
+      top: StiloConfig.space24,
+      bottom: StiloConfig.space24,
     );
   }
 
@@ -2329,8 +2330,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 96.0,
-      left: 96.0,
+      right: StiloConfig.space24,
+      left: StiloConfig.space24,
     );
   }
 
@@ -2339,7 +2340,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 96.0,
+      top: StiloConfig.space24,
     );
   }
 
@@ -2348,7 +2349,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 96.0,
+      right: StiloConfig.space24,
     );
   }
 
@@ -2357,7 +2358,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 96.0,
+      bottom: StiloConfig.space24,
     );
   }
 
@@ -2366,7 +2367,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 96.0,
+      left: StiloConfig.space24,
     );
   }
 
@@ -2377,10 +2378,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -96.0,
-      right: -96.0,
-      bottom: -96.0,
-      left: -96.0,
+      top: StiloConfig.space24Neg,
+      right: StiloConfig.space24Neg,
+      bottom: StiloConfig.space24Neg,
+      left: StiloConfig.space24Neg,
     );
   }
 
@@ -2391,8 +2392,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -96.0,
-      bottom: -96.0,
+      top: StiloConfig.space24Neg,
+      bottom: StiloConfig.space24Neg,
     );
   }
 
@@ -2403,8 +2404,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -96.0,
-      left: -96.0,
+      right: StiloConfig.space24Neg,
+      left: StiloConfig.space24Neg,
     );
   }
 
@@ -2413,7 +2414,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -96.0,
+      top: StiloConfig.space24Neg,
     );
   }
 
@@ -2422,7 +2423,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -96.0,
+      right: StiloConfig.space24Neg,
     );
   }
 
@@ -2431,7 +2432,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -96.0,
+      bottom: StiloConfig.space24Neg,
     );
   }
 
@@ -2440,7 +2441,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -96.0,
+      left: StiloConfig.space24Neg,
     );
   }
 
@@ -2451,10 +2452,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 112.0,
-      right: 112.0,
-      bottom: 112.0,
-      left: 112.0,
+      top: StiloConfig.space28,
+      right: StiloConfig.space28,
+      bottom: StiloConfig.space28,
+      left: StiloConfig.space28,
     );
   }
 
@@ -2465,8 +2466,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 112.0,
-      bottom: 112.0,
+      top: StiloConfig.space28,
+      bottom: StiloConfig.space28,
     );
   }
 
@@ -2477,8 +2478,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 112.0,
-      left: 112.0,
+      right: StiloConfig.space28,
+      left: StiloConfig.space28,
     );
   }
 
@@ -2487,7 +2488,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 112.0,
+      top: StiloConfig.space28,
     );
   }
 
@@ -2496,7 +2497,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 112.0,
+      right: StiloConfig.space28,
     );
   }
 
@@ -2505,7 +2506,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 112.0,
+      bottom: StiloConfig.space28,
     );
   }
 
@@ -2514,7 +2515,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 112.0,
+      left: StiloConfig.space28,
     );
   }
 
@@ -2525,10 +2526,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -112.0,
-      right: -112.0,
-      bottom: -112.0,
-      left: -112.0,
+      top: StiloConfig.space28Neg,
+      right: StiloConfig.space28Neg,
+      bottom: StiloConfig.space28Neg,
+      left: StiloConfig.space28Neg,
     );
   }
 
@@ -2539,8 +2540,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -112.0,
-      bottom: -112.0,
+      top: StiloConfig.space28Neg,
+      bottom: StiloConfig.space28Neg,
     );
   }
 
@@ -2551,8 +2552,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -112.0,
-      left: -112.0,
+      right: StiloConfig.space28Neg,
+      left: StiloConfig.space28Neg,
     );
   }
 
@@ -2561,7 +2562,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -112.0,
+      top: StiloConfig.space28Neg,
     );
   }
 
@@ -2570,7 +2571,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -112.0,
+      right: StiloConfig.space28Neg,
     );
   }
 
@@ -2579,7 +2580,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -112.0,
+      bottom: StiloConfig.space28Neg,
     );
   }
 
@@ -2588,7 +2589,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -112.0,
+      left: StiloConfig.space28Neg,
     );
   }
 
@@ -2599,10 +2600,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 128.0,
-      right: 128.0,
-      bottom: 128.0,
-      left: 128.0,
+      top: StiloConfig.space32,
+      right: StiloConfig.space32,
+      bottom: StiloConfig.space32,
+      left: StiloConfig.space32,
     );
   }
 
@@ -2613,8 +2614,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 128.0,
-      bottom: 128.0,
+      top: StiloConfig.space32,
+      bottom: StiloConfig.space32,
     );
   }
 
@@ -2625,8 +2626,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 128.0,
-      left: 128.0,
+      right: StiloConfig.space32,
+      left: StiloConfig.space32,
     );
   }
 
@@ -2635,7 +2636,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 128.0,
+      top: StiloConfig.space32,
     );
   }
 
@@ -2644,7 +2645,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 128.0,
+      right: StiloConfig.space32,
     );
   }
 
@@ -2653,7 +2654,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 128.0,
+      bottom: StiloConfig.space32,
     );
   }
 
@@ -2662,7 +2663,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 128.0,
+      left: StiloConfig.space32,
     );
   }
 
@@ -2673,10 +2674,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -128.0,
-      right: -128.0,
-      bottom: -128.0,
-      left: -128.0,
+      top: StiloConfig.space32Neg,
+      right: StiloConfig.space32Neg,
+      bottom: StiloConfig.space32Neg,
+      left: StiloConfig.space32Neg,
     );
   }
 
@@ -2687,8 +2688,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -128.0,
-      bottom: -128.0,
+      top: StiloConfig.space32Neg,
+      bottom: StiloConfig.space32Neg,
     );
   }
 
@@ -2699,8 +2700,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -128.0,
-      left: -128.0,
+      right: StiloConfig.space32Neg,
+      left: StiloConfig.space32Neg,
     );
   }
 
@@ -2709,7 +2710,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -128.0,
+      top: StiloConfig.space32Neg,
     );
   }
 
@@ -2718,7 +2719,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -128.0,
+      right: StiloConfig.space32Neg,
     );
   }
 
@@ -2727,7 +2728,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -128.0,
+      bottom: StiloConfig.space32Neg,
     );
   }
 
@@ -2736,7 +2737,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -128.0,
+      left: StiloConfig.space32Neg,
     );
   }
 
@@ -2747,10 +2748,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 144.0,
-      right: 144.0,
-      bottom: 144.0,
-      left: 144.0,
+      top: StiloConfig.space36,
+      right: StiloConfig.space36,
+      bottom: StiloConfig.space36,
+      left: StiloConfig.space36,
     );
   }
 
@@ -2761,8 +2762,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 144.0,
-      bottom: 144.0,
+      top: StiloConfig.space36,
+      bottom: StiloConfig.space36,
     );
   }
 
@@ -2773,8 +2774,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 144.0,
-      left: 144.0,
+      right: StiloConfig.space36,
+      left: StiloConfig.space36,
     );
   }
 
@@ -2783,7 +2784,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 144.0,
+      top: StiloConfig.space36,
     );
   }
 
@@ -2792,7 +2793,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 144.0,
+      right: StiloConfig.space36,
     );
   }
 
@@ -2801,7 +2802,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 144.0,
+      bottom: StiloConfig.space36,
     );
   }
 
@@ -2810,7 +2811,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 144.0,
+      left: StiloConfig.space36,
     );
   }
 
@@ -2821,10 +2822,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -144.0,
-      right: -144.0,
-      bottom: -144.0,
-      left: -144.0,
+      top: StiloConfig.space36Neg,
+      right: StiloConfig.space36Neg,
+      bottom: StiloConfig.space36Neg,
+      left: StiloConfig.space36Neg,
     );
   }
 
@@ -2835,8 +2836,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -144.0,
-      bottom: -144.0,
+      top: StiloConfig.space36Neg,
+      bottom: StiloConfig.space36Neg,
     );
   }
 
@@ -2847,8 +2848,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -144.0,
-      left: -144.0,
+      right: StiloConfig.space36Neg,
+      left: StiloConfig.space36Neg,
     );
   }
 
@@ -2857,7 +2858,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -144.0,
+      top: StiloConfig.space36Neg,
     );
   }
 
@@ -2866,7 +2867,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -144.0,
+      right: StiloConfig.space36Neg,
     );
   }
 
@@ -2875,7 +2876,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -144.0,
+      bottom: StiloConfig.space36Neg,
     );
   }
 
@@ -2884,7 +2885,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -144.0,
+      left: StiloConfig.space36Neg,
     );
   }
 
@@ -2895,10 +2896,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 160.0,
-      right: 160.0,
-      bottom: 160.0,
-      left: 160.0,
+      top: StiloConfig.space40,
+      right: StiloConfig.space40,
+      bottom: StiloConfig.space40,
+      left: StiloConfig.space40,
     );
   }
 
@@ -2909,8 +2910,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 160.0,
-      bottom: 160.0,
+      top: StiloConfig.space40,
+      bottom: StiloConfig.space40,
     );
   }
 
@@ -2921,8 +2922,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 160.0,
-      left: 160.0,
+      right: StiloConfig.space40,
+      left: StiloConfig.space40,
     );
   }
 
@@ -2931,7 +2932,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 160.0,
+      top: StiloConfig.space40,
     );
   }
 
@@ -2940,7 +2941,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 160.0,
+      right: StiloConfig.space40,
     );
   }
 
@@ -2949,7 +2950,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 160.0,
+      bottom: StiloConfig.space40,
     );
   }
 
@@ -2958,7 +2959,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 160.0,
+      left: StiloConfig.space40,
     );
   }
 
@@ -2969,10 +2970,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -160.0,
-      right: -160.0,
-      bottom: -160.0,
-      left: -160.0,
+      top: StiloConfig.space40Neg,
+      right: StiloConfig.space40Neg,
+      bottom: StiloConfig.space40Neg,
+      left: StiloConfig.space40Neg,
     );
   }
 
@@ -2983,8 +2984,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -160.0,
-      bottom: -160.0,
+      top: StiloConfig.space40Neg,
+      bottom: StiloConfig.space40Neg,
     );
   }
 
@@ -2995,8 +2996,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -160.0,
-      left: -160.0,
+      right: StiloConfig.space40Neg,
+      left: StiloConfig.space40Neg,
     );
   }
 
@@ -3005,7 +3006,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -160.0,
+      top: StiloConfig.space40Neg,
     );
   }
 
@@ -3014,7 +3015,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -160.0,
+      right: StiloConfig.space40Neg,
     );
   }
 
@@ -3023,7 +3024,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -160.0,
+      bottom: StiloConfig.space40Neg,
     );
   }
 
@@ -3032,7 +3033,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -160.0,
+      left: StiloConfig.space40Neg,
     );
   }
 
@@ -3043,10 +3044,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 176.0,
-      right: 176.0,
-      bottom: 176.0,
-      left: 176.0,
+      top: StiloConfig.space44,
+      right: StiloConfig.space44,
+      bottom: StiloConfig.space44,
+      left: StiloConfig.space44,
     );
   }
 
@@ -3057,8 +3058,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 176.0,
-      bottom: 176.0,
+      top: StiloConfig.space44,
+      bottom: StiloConfig.space44,
     );
   }
 
@@ -3069,8 +3070,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 176.0,
-      left: 176.0,
+      right: StiloConfig.space44,
+      left: StiloConfig.space44,
     );
   }
 
@@ -3079,7 +3080,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 176.0,
+      top: StiloConfig.space44,
     );
   }
 
@@ -3088,7 +3089,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 176.0,
+      right: StiloConfig.space44,
     );
   }
 
@@ -3097,7 +3098,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 176.0,
+      bottom: StiloConfig.space44,
     );
   }
 
@@ -3106,7 +3107,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 176.0,
+      left: StiloConfig.space44,
     );
   }
 
@@ -3117,10 +3118,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -176.0,
-      right: -176.0,
-      bottom: -176.0,
-      left: -176.0,
+      top: StiloConfig.space44Neg,
+      right: StiloConfig.space44Neg,
+      bottom: StiloConfig.space44Neg,
+      left: StiloConfig.space44Neg,
     );
   }
 
@@ -3131,8 +3132,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -176.0,
-      bottom: -176.0,
+      top: StiloConfig.space44Neg,
+      bottom: StiloConfig.space44Neg,
     );
   }
 
@@ -3143,8 +3144,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -176.0,
-      left: -176.0,
+      right: StiloConfig.space44Neg,
+      left: StiloConfig.space44Neg,
     );
   }
 
@@ -3153,7 +3154,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -176.0,
+      top: StiloConfig.space44Neg,
     );
   }
 
@@ -3162,7 +3163,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -176.0,
+      right: StiloConfig.space44Neg,
     );
   }
 
@@ -3171,7 +3172,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -176.0,
+      bottom: StiloConfig.space44Neg,
     );
   }
 
@@ -3180,7 +3181,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -176.0,
+      left: StiloConfig.space44Neg,
     );
   }
 
@@ -3191,10 +3192,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 192.0,
-      right: 192.0,
-      bottom: 192.0,
-      left: 192.0,
+      top: StiloConfig.space48,
+      right: StiloConfig.space48,
+      bottom: StiloConfig.space48,
+      left: StiloConfig.space48,
     );
   }
 
@@ -3205,8 +3206,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 192.0,
-      bottom: 192.0,
+      top: StiloConfig.space48,
+      bottom: StiloConfig.space48,
     );
   }
 
@@ -3217,8 +3218,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 192.0,
-      left: 192.0,
+      right: StiloConfig.space48,
+      left: StiloConfig.space48,
     );
   }
 
@@ -3227,7 +3228,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 192.0,
+      top: StiloConfig.space48,
     );
   }
 
@@ -3236,7 +3237,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 192.0,
+      right: StiloConfig.space48,
     );
   }
 
@@ -3245,7 +3246,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 192.0,
+      bottom: StiloConfig.space48,
     );
   }
 
@@ -3254,7 +3255,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 192.0,
+      left: StiloConfig.space48,
     );
   }
 
@@ -3265,10 +3266,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -192.0,
-      right: -192.0,
-      bottom: -192.0,
-      left: -192.0,
+      top: StiloConfig.space48Neg,
+      right: StiloConfig.space48Neg,
+      bottom: StiloConfig.space48Neg,
+      left: StiloConfig.space48Neg,
     );
   }
 
@@ -3279,8 +3280,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -192.0,
-      bottom: -192.0,
+      top: StiloConfig.space48Neg,
+      bottom: StiloConfig.space48Neg,
     );
   }
 
@@ -3291,8 +3292,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -192.0,
-      left: -192.0,
+      right: StiloConfig.space48Neg,
+      left: StiloConfig.space48Neg,
     );
   }
 
@@ -3301,7 +3302,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -192.0,
+      top: StiloConfig.space48Neg,
     );
   }
 
@@ -3310,7 +3311,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -192.0,
+      right: StiloConfig.space48Neg,
     );
   }
 
@@ -3319,7 +3320,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -192.0,
+      bottom: StiloConfig.space48Neg,
     );
   }
 
@@ -3328,7 +3329,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -192.0,
+      left: StiloConfig.space48Neg,
     );
   }
 
@@ -3339,10 +3340,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 208.0,
-      right: 208.0,
-      bottom: 208.0,
-      left: 208.0,
+      top: StiloConfig.space52,
+      right: StiloConfig.space52,
+      bottom: StiloConfig.space52,
+      left: StiloConfig.space52,
     );
   }
 
@@ -3353,8 +3354,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 208.0,
-      bottom: 208.0,
+      top: StiloConfig.space52,
+      bottom: StiloConfig.space52,
     );
   }
 
@@ -3365,8 +3366,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 208.0,
-      left: 208.0,
+      right: StiloConfig.space52,
+      left: StiloConfig.space52,
     );
   }
 
@@ -3375,7 +3376,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 208.0,
+      top: StiloConfig.space52,
     );
   }
 
@@ -3384,7 +3385,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 208.0,
+      right: StiloConfig.space52,
     );
   }
 
@@ -3393,7 +3394,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 208.0,
+      bottom: StiloConfig.space52,
     );
   }
 
@@ -3402,7 +3403,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 208.0,
+      left: StiloConfig.space52,
     );
   }
 
@@ -3413,10 +3414,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -208.0,
-      right: -208.0,
-      bottom: -208.0,
-      left: -208.0,
+      top: StiloConfig.space52Neg,
+      right: StiloConfig.space52Neg,
+      bottom: StiloConfig.space52Neg,
+      left: StiloConfig.space52Neg,
     );
   }
 
@@ -3427,8 +3428,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -208.0,
-      bottom: -208.0,
+      top: StiloConfig.space52Neg,
+      bottom: StiloConfig.space52Neg,
     );
   }
 
@@ -3439,8 +3440,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -208.0,
-      left: -208.0,
+      right: StiloConfig.space52Neg,
+      left: StiloConfig.space52Neg,
     );
   }
 
@@ -3449,7 +3450,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -208.0,
+      top: StiloConfig.space52Neg,
     );
   }
 
@@ -3458,7 +3459,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -208.0,
+      right: StiloConfig.space52Neg,
     );
   }
 
@@ -3467,7 +3468,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -208.0,
+      bottom: StiloConfig.space52Neg,
     );
   }
 
@@ -3476,7 +3477,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -208.0,
+      left: StiloConfig.space52Neg,
     );
   }
 
@@ -3487,10 +3488,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 224.0,
-      right: 224.0,
-      bottom: 224.0,
-      left: 224.0,
+      top: StiloConfig.space56,
+      right: StiloConfig.space56,
+      bottom: StiloConfig.space56,
+      left: StiloConfig.space56,
     );
   }
 
@@ -3501,8 +3502,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 224.0,
-      bottom: 224.0,
+      top: StiloConfig.space56,
+      bottom: StiloConfig.space56,
     );
   }
 
@@ -3513,8 +3514,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 224.0,
-      left: 224.0,
+      right: StiloConfig.space56,
+      left: StiloConfig.space56,
     );
   }
 
@@ -3523,7 +3524,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 224.0,
+      top: StiloConfig.space56,
     );
   }
 
@@ -3532,7 +3533,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 224.0,
+      right: StiloConfig.space56,
     );
   }
 
@@ -3541,7 +3542,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 224.0,
+      bottom: StiloConfig.space56,
     );
   }
 
@@ -3550,7 +3551,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 224.0,
+      left: StiloConfig.space56,
     );
   }
 
@@ -3561,10 +3562,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -224.0,
-      right: -224.0,
-      bottom: -224.0,
-      left: -224.0,
+      top: StiloConfig.space56Neg,
+      right: StiloConfig.space56Neg,
+      bottom: StiloConfig.space56Neg,
+      left: StiloConfig.space56Neg,
     );
   }
 
@@ -3575,8 +3576,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -224.0,
-      bottom: -224.0,
+      top: StiloConfig.space56Neg,
+      bottom: StiloConfig.space56Neg,
     );
   }
 
@@ -3587,8 +3588,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -224.0,
-      left: -224.0,
+      right: StiloConfig.space56Neg,
+      left: StiloConfig.space56Neg,
     );
   }
 
@@ -3597,7 +3598,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -224.0,
+      top: StiloConfig.space56Neg,
     );
   }
 
@@ -3606,7 +3607,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -224.0,
+      right: StiloConfig.space56Neg,
     );
   }
 
@@ -3615,7 +3616,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -224.0,
+      bottom: StiloConfig.space56Neg,
     );
   }
 
@@ -3624,7 +3625,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -224.0,
+      left: StiloConfig.space56Neg,
     );
   }
 
@@ -3635,10 +3636,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 240.0,
-      right: 240.0,
-      bottom: 240.0,
-      left: 240.0,
+      top: StiloConfig.space60,
+      right: StiloConfig.space60,
+      bottom: StiloConfig.space60,
+      left: StiloConfig.space60,
     );
   }
 
@@ -3649,8 +3650,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 240.0,
-      bottom: 240.0,
+      top: StiloConfig.space60,
+      bottom: StiloConfig.space60,
     );
   }
 
@@ -3661,8 +3662,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 240.0,
-      left: 240.0,
+      right: StiloConfig.space60,
+      left: StiloConfig.space60,
     );
   }
 
@@ -3671,7 +3672,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 240.0,
+      top: StiloConfig.space60,
     );
   }
 
@@ -3680,7 +3681,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 240.0,
+      right: StiloConfig.space60,
     );
   }
 
@@ -3689,7 +3690,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 240.0,
+      bottom: StiloConfig.space60,
     );
   }
 
@@ -3698,7 +3699,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 240.0,
+      left: StiloConfig.space60,
     );
   }
 
@@ -3709,10 +3710,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -240.0,
-      right: -240.0,
-      bottom: -240.0,
-      left: -240.0,
+      top: StiloConfig.space60Neg,
+      right: StiloConfig.space60Neg,
+      bottom: StiloConfig.space60Neg,
+      left: StiloConfig.space60Neg,
     );
   }
 
@@ -3723,8 +3724,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -240.0,
-      bottom: -240.0,
+      top: StiloConfig.space60Neg,
+      bottom: StiloConfig.space60Neg,
     );
   }
 
@@ -3735,8 +3736,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -240.0,
-      left: -240.0,
+      right: StiloConfig.space60Neg,
+      left: StiloConfig.space60Neg,
     );
   }
 
@@ -3745,7 +3746,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -240.0,
+      top: StiloConfig.space60Neg,
     );
   }
 
@@ -3754,7 +3755,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -240.0,
+      right: StiloConfig.space60Neg,
     );
   }
 
@@ -3763,7 +3764,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -240.0,
+      bottom: StiloConfig.space60Neg,
     );
   }
 
@@ -3772,7 +3773,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -240.0,
+      left: StiloConfig.space60Neg,
     );
   }
 
@@ -3783,10 +3784,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 256.0,
-      right: 256.0,
-      bottom: 256.0,
-      left: 256.0,
+      top: StiloConfig.space64,
+      right: StiloConfig.space64,
+      bottom: StiloConfig.space64,
+      left: StiloConfig.space64,
     );
   }
 
@@ -3797,8 +3798,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 256.0,
-      bottom: 256.0,
+      top: StiloConfig.space64,
+      bottom: StiloConfig.space64,
     );
   }
 
@@ -3809,8 +3810,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 256.0,
-      left: 256.0,
+      right: StiloConfig.space64,
+      left: StiloConfig.space64,
     );
   }
 
@@ -3819,7 +3820,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 256.0,
+      top: StiloConfig.space64,
     );
   }
 
@@ -3828,7 +3829,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 256.0,
+      right: StiloConfig.space64,
     );
   }
 
@@ -3837,7 +3838,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 256.0,
+      bottom: StiloConfig.space64,
     );
   }
 
@@ -3846,7 +3847,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 256.0,
+      left: StiloConfig.space64,
     );
   }
 
@@ -3857,10 +3858,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -256.0,
-      right: -256.0,
-      bottom: -256.0,
-      left: -256.0,
+      top: StiloConfig.space64Neg,
+      right: StiloConfig.space64Neg,
+      bottom: StiloConfig.space64Neg,
+      left: StiloConfig.space64Neg,
     );
   }
 
@@ -3871,8 +3872,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -256.0,
-      bottom: -256.0,
+      top: StiloConfig.space64Neg,
+      bottom: StiloConfig.space64Neg,
     );
   }
 
@@ -3883,8 +3884,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -256.0,
-      left: -256.0,
+      right: StiloConfig.space64Neg,
+      left: StiloConfig.space64Neg,
     );
   }
 
@@ -3893,7 +3894,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -256.0,
+      top: StiloConfig.space64Neg,
     );
   }
 
@@ -3902,7 +3903,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -256.0,
+      right: StiloConfig.space64Neg,
     );
   }
 
@@ -3911,7 +3912,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -256.0,
+      bottom: StiloConfig.space64Neg,
     );
   }
 
@@ -3920,7 +3921,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -256.0,
+      left: StiloConfig.space64Neg,
     );
   }
 
@@ -3931,10 +3932,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 288.0,
-      right: 288.0,
-      bottom: 288.0,
-      left: 288.0,
+      top: StiloConfig.space72,
+      right: StiloConfig.space72,
+      bottom: StiloConfig.space72,
+      left: StiloConfig.space72,
     );
   }
 
@@ -3945,8 +3946,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 288.0,
-      bottom: 288.0,
+      top: StiloConfig.space72,
+      bottom: StiloConfig.space72,
     );
   }
 
@@ -3957,8 +3958,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 288.0,
-      left: 288.0,
+      right: StiloConfig.space72,
+      left: StiloConfig.space72,
     );
   }
 
@@ -3967,7 +3968,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 288.0,
+      top: StiloConfig.space72,
     );
   }
 
@@ -3976,7 +3977,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 288.0,
+      right: StiloConfig.space72,
     );
   }
 
@@ -3985,7 +3986,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 288.0,
+      bottom: StiloConfig.space72,
     );
   }
 
@@ -3994,7 +3995,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 288.0,
+      left: StiloConfig.space72,
     );
   }
 
@@ -4005,10 +4006,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -288.0,
-      right: -288.0,
-      bottom: -288.0,
-      left: -288.0,
+      top: StiloConfig.space72Neg,
+      right: StiloConfig.space72Neg,
+      bottom: StiloConfig.space72Neg,
+      left: StiloConfig.space72Neg,
     );
   }
 
@@ -4019,8 +4020,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -288.0,
-      bottom: -288.0,
+      top: StiloConfig.space72Neg,
+      bottom: StiloConfig.space72Neg,
     );
   }
 
@@ -4031,8 +4032,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -288.0,
-      left: -288.0,
+      right: StiloConfig.space72Neg,
+      left: StiloConfig.space72Neg,
     );
   }
 
@@ -4041,7 +4042,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -288.0,
+      top: StiloConfig.space72Neg,
     );
   }
 
@@ -4050,7 +4051,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -288.0,
+      right: StiloConfig.space72Neg,
     );
   }
 
@@ -4059,7 +4060,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -288.0,
+      bottom: StiloConfig.space72Neg,
     );
   }
 
@@ -4068,7 +4069,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -288.0,
+      left: StiloConfig.space72Neg,
     );
   }
 
@@ -4079,10 +4080,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 320.0,
-      right: 320.0,
-      bottom: 320.0,
-      left: 320.0,
+      top: StiloConfig.space80,
+      right: StiloConfig.space80,
+      bottom: StiloConfig.space80,
+      left: StiloConfig.space80,
     );
   }
 
@@ -4093,8 +4094,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 320.0,
-      bottom: 320.0,
+      top: StiloConfig.space80,
+      bottom: StiloConfig.space80,
     );
   }
 
@@ -4105,8 +4106,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 320.0,
-      left: 320.0,
+      right: StiloConfig.space80,
+      left: StiloConfig.space80,
     );
   }
 
@@ -4115,7 +4116,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 320.0,
+      top: StiloConfig.space80,
     );
   }
 
@@ -4124,7 +4125,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 320.0,
+      right: StiloConfig.space80,
     );
   }
 
@@ -4133,7 +4134,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 320.0,
+      bottom: StiloConfig.space80,
     );
   }
 
@@ -4142,7 +4143,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 320.0,
+      left: StiloConfig.space80,
     );
   }
 
@@ -4153,10 +4154,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -320.0,
-      right: -320.0,
-      bottom: -320.0,
-      left: -320.0,
+      top: StiloConfig.space80Neg,
+      right: StiloConfig.space80Neg,
+      bottom: StiloConfig.space80Neg,
+      left: StiloConfig.space80Neg,
     );
   }
 
@@ -4167,8 +4168,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -320.0,
-      bottom: -320.0,
+      top: StiloConfig.space80Neg,
+      bottom: StiloConfig.space80Neg,
     );
   }
 
@@ -4179,8 +4180,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -320.0,
-      left: -320.0,
+      right: StiloConfig.space80Neg,
+      left: StiloConfig.space80Neg,
     );
   }
 
@@ -4189,7 +4190,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -320.0,
+      top: StiloConfig.space80Neg,
     );
   }
 
@@ -4198,7 +4199,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -320.0,
+      right: StiloConfig.space80Neg,
     );
   }
 
@@ -4207,7 +4208,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -320.0,
+      bottom: StiloConfig.space80Neg,
     );
   }
 
@@ -4216,7 +4217,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -320.0,
+      left: StiloConfig.space80Neg,
     );
   }
 
@@ -4227,10 +4228,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 384.0,
-      right: 384.0,
-      bottom: 384.0,
-      left: 384.0,
+      top: StiloConfig.space96,
+      right: StiloConfig.space96,
+      bottom: StiloConfig.space96,
+      left: StiloConfig.space96,
     );
   }
 
@@ -4241,8 +4242,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 384.0,
-      bottom: 384.0,
+      top: StiloConfig.space96,
+      bottom: StiloConfig.space96,
     );
   }
 
@@ -4253,8 +4254,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 384.0,
-      left: 384.0,
+      right: StiloConfig.space96,
+      left: StiloConfig.space96,
     );
   }
 
@@ -4263,7 +4264,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: 384.0,
+      top: StiloConfig.space96,
     );
   }
 
@@ -4272,7 +4273,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: 384.0,
+      right: StiloConfig.space96,
     );
   }
 
@@ -4281,7 +4282,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: 384.0,
+      bottom: StiloConfig.space96,
     );
   }
 
@@ -4290,7 +4291,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: 384.0,
+      left: StiloConfig.space96,
     );
   }
 
@@ -4301,10 +4302,10 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -384.0,
-      right: -384.0,
-      bottom: -384.0,
-      left: -384.0,
+      top: StiloConfig.space96Neg,
+      right: StiloConfig.space96Neg,
+      bottom: StiloConfig.space96Neg,
+      left: StiloConfig.space96Neg,
     );
   }
 
@@ -4315,8 +4316,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -384.0,
-      bottom: -384.0,
+      top: StiloConfig.space96Neg,
+      bottom: StiloConfig.space96Neg,
     );
   }
 
@@ -4327,8 +4328,8 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -384.0,
-      left: -384.0,
+      right: StiloConfig.space96Neg,
+      left: StiloConfig.space96Neg,
     );
   }
 
@@ -4337,7 +4338,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      top: -384.0,
+      top: StiloConfig.space96Neg,
     );
   }
 
@@ -4346,7 +4347,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      right: -384.0,
+      right: StiloConfig.space96Neg,
     );
   }
 
@@ -4355,7 +4356,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      bottom: -384.0,
+      bottom: StiloConfig.space96Neg,
     );
   }
 
@@ -4364,7 +4365,7 @@ abstract class StiloPositioned {
     return Positioned(
       key: key,
       child: child,
-      left: -384.0,
+      left: StiloConfig.space96Neg,
     );
   }
 }
