@@ -1,257 +1,364 @@
 import 'package:flutter/material.dart';
 
-/// Defines border radius constants
+/// A class that constructs [BorderRadius] constants
 abstract class StiloBorderRadius {
-  /// Defines a circular radius of 0.0
-  static const rad0 = Radius.circular(0.0);
+  /// Defines a [Radius.circular] of 0.0
+  static const none = Radius.circular(0.0);
 
-  /// Defines a circular radius of 1.5
-  static const rad1 = Radius.circular(1.5);
+  /// Defines a [Radius.circular] of 2.0
+  static const xs = Radius.circular(2.0);
 
-  /// Defines a circular radius of 3.0
-  static const rad2 = Radius.circular(3.0);
+  /// Defines a [Radius.circular] of 4.0
+  static const sm = Radius.circular(4.0);
 
-  /// Defines a circular radius of 4.5
-  static const rad3 = Radius.circular(4.5);
+  /// Defines a [Radius.circular] of 6.0
+  static const md = Radius.circular(6.0);
 
-  /// Defines a circular radius of 6.0
-  static const rad4 = Radius.circular(6.0);
+  /// Defines a [Radius.circular] of 8.0
+  static const lg = Radius.circular(8.0);
 
-  /// Defines a circular radius of 9.0
-  static const rad5 = Radius.circular(9.0);
+  /// Defines a [Radius.circular] of 12.0
+  static const xl = Radius.circular(12.0);
 
-  /// Defines a circular radius of 12.0
-  static const rad6 = Radius.circular(12.0);
+  /// Defines a [Radius.circular] of 16.0
+  static const xl2 = Radius.circular(16.0);
 
-  /// Defines a circular radius of 18.0
-  static const rad7 = Radius.circular(18.0);
+  /// Defines a [Radius.circular] of 20.0
+  static const xl3 = Radius.circular(20.0);
 
-  // [BorderRadiusDirectional All]
+  /// Defines a [Radius.circular] of 24.0
+  static const xl4 = Radius.circular(24.0);
+
+  /// Defines a [Radius.circular] of 28.0
+  static const xl5 = Radius.circular(28.0);
+
+  /// Defines a [Radius.circular] of 32.0
+  static const xl6 = Radius.circular(32.0);
+
+  /// Defines a [Radius.circular] of 9999.0
+  static const full = Radius.circular(9999.0);
+
   /// Constructs a circular border radius of 0.0 for all directions
-  static const a0 = BorderRadiusDirectional.all(rad0);
+  static const allNone = BorderRadius.all(none);
 
-  /// Constructs a circular border radius of 1.5 for all directions
-  static const a1 = BorderRadiusDirectional.all(rad1);
+  /// Constructs a circular border radius of 0.0 for top direction
+  static const topNone = BorderRadius.vertical(top: none);
 
-  /// Constructs a circular border radius of 3.0 for all directions
-  static const a2 = BorderRadiusDirectional.all(rad2);
+  /// Constructs a circular border radius of 0.0 for right direction
+  static const rightNone = BorderRadius.horizontal(right: none);
 
-  /// Constructs a circular border radius of 4.5 for all directions
-  static const a3 = BorderRadiusDirectional.all(rad3);
+  /// Constructs a circular border radius of 0.0 for bottom direction
+  static const bottomNone = BorderRadius.vertical(bottom: none);
+
+  /// Constructs a circular border radius of 0.0 for left direction
+  static const leftNone = BorderRadius.horizontal(left: none);
+
+  /// Constructs a circular border radius of 2.0 for all directions
+  static const allXs = BorderRadius.all(xs);
+
+  /// Constructs a circular border radius of 2.0 for top direction
+  static const topXs = BorderRadius.vertical(top: xs);
+
+  /// Constructs a circular border radius of 2.0 for right direction
+  static const rightXs = BorderRadius.horizontal(right: xs);
+
+  /// Constructs a circular border radius of 2.0 for bottom direction
+  static const bottomXs = BorderRadius.vertical(bottom: xs);
+
+  /// Constructs a circular border radius of 2.0 for left direction
+  static const leftXs = BorderRadius.horizontal(left: xs);
+
+  /// Constructs a circular border radius of 4.0 for all directions
+  static const allSm = BorderRadius.all(sm);
+
+  /// Constructs a circular border radius of 4.0 for top direction
+  static const topSm = BorderRadius.vertical(top: sm);
+
+  /// Constructs a circular border radius of 4.0 for right direction
+  static const rightSm = BorderRadius.horizontal(right: sm);
+
+  /// Constructs a circular border radius of 4.0 for bottom direction
+  static const bottomSm = BorderRadius.vertical(bottom: sm);
+
+  /// Constructs a circular border radius of 4.0 for left direction
+  static const leftSm = BorderRadius.horizontal(left: sm);
 
   /// Constructs a circular border radius of 6.0 for all directions
-  static const a4 = BorderRadiusDirectional.all(rad4);
-
-  /// Constructs a circular border radius of 9.0 for all directions
-  static const a5 = BorderRadiusDirectional.all(rad5);
-
-  /// Constructs a circular border radius of 12.0 for all directions
-  static const a6 = BorderRadiusDirectional.all(rad6);
-
-  /// Constructs a circular border radius of 18.0 for all directions
-  static const a7 = BorderRadiusDirectional.all(rad7);
-
-  // [BorderRadiusDirectional Top]
-  /// Constructs a circular border radius of 0.0 for top direction
-  static const t0 = BorderRadiusDirectional.vertical(top: rad0);
-
-  /// Constructs a circular border radius of 1.5 for top direction
-  static const t1 = BorderRadiusDirectional.vertical(top: rad1);
-
-  /// Constructs a circular border radius of 3.0 for top direction
-  static const t2 = BorderRadiusDirectional.vertical(top: rad2);
-
-  /// Constructs a circular border radius of 4.5 for top direction
-  static const t3 = BorderRadiusDirectional.vertical(top: rad3);
+  static const allMd = BorderRadius.all(md);
 
   /// Constructs a circular border radius of 6.0 for top direction
-  static const t4 = BorderRadiusDirectional.vertical(top: rad4);
-
-  /// Constructs a circular border radius of 9.0 for top direction
-  static const t5 = BorderRadiusDirectional.vertical(top: rad5);
-
-  /// Constructs a circular border radius of 12.0 for top direction
-  static const t6 = BorderRadiusDirectional.vertical(top: rad6);
-
-  /// Constructs a circular border radius of 18.0 for top direction
-  static const t7 = BorderRadiusDirectional.vertical(top: rad7);
-
-  // [BorderRadiusDirectional Right]
-  /// Constructs a circular border radius of 0.0 for right direction
-  static const r0 = BorderRadiusDirectional.horizontal(end: rad0);
-
-  /// Constructs a circular border radius of 1.5 for right direction
-  static const r1 = BorderRadiusDirectional.horizontal(end: rad1);
-
-  /// Constructs a circular border radius of 3.0 for right direction
-  static const r2 = BorderRadiusDirectional.horizontal(end: rad2);
-
-  /// Constructs a circular border radius of 4.5 for right direction
-  static const r3 = BorderRadiusDirectional.horizontal(end: rad3);
+  static const topMd = BorderRadius.vertical(top: md);
 
   /// Constructs a circular border radius of 6.0 for right direction
-  static const r4 = BorderRadiusDirectional.horizontal(end: rad4);
-
-  /// Constructs a circular border radius of 9.0 for right direction
-  static const r5 = BorderRadiusDirectional.horizontal(end: rad5);
-
-  /// Constructs a circular border radius of 12.0 for right direction
-  static const r6 = BorderRadiusDirectional.horizontal(end: rad6);
-
-  /// Constructs a circular border radius of 18.0 for right direction
-  static const r7 = BorderRadiusDirectional.horizontal(end: rad7);
-
-  // [BorderRadiusDirectional Bottom]
-  /// Constructs a circular border radius of 0.0 for bottom direction
-  static const b0 = BorderRadiusDirectional.vertical(bottom: rad0);
-
-  /// Constructs a circular border radius of 1.5 for bottom direction
-  static const b1 = BorderRadiusDirectional.vertical(bottom: rad1);
-
-  /// Constructs a circular border radius of 3.0 for bottom direction
-  static const b2 = BorderRadiusDirectional.vertical(bottom: rad2);
-
-  /// Constructs a circular border radius of 4.5 for bottom direction
-  static const b3 = BorderRadiusDirectional.vertical(bottom: rad3);
+  static const rightMd = BorderRadius.horizontal(right: md);
 
   /// Constructs a circular border radius of 6.0 for bottom direction
-  static const b4 = BorderRadiusDirectional.vertical(bottom: rad4);
-
-  /// Constructs a circular border radius of 9.0 for bottom direction
-  static const b5 = BorderRadiusDirectional.vertical(bottom: rad5);
-
-  /// Constructs a circular border radius of 12.0 for bottom direction
-  static const b6 = BorderRadiusDirectional.vertical(bottom: rad6);
-
-  /// Constructs a circular border radius of 18.0 for bottom direction
-  static const b7 = BorderRadiusDirectional.vertical(bottom: rad7);
-
-  // [BorderRadiusDirectional Left]
-  /// Constructs a circular border radius of 0.0 for left direction
-  static const l0 = BorderRadiusDirectional.horizontal(start: rad0);
-
-  /// Constructs a circular border radius of 1.5 for left direction
-  static const l1 = BorderRadiusDirectional.horizontal(start: rad1);
-
-  /// Constructs a circular border radius of 3.0 for left direction
-  static const l2 = BorderRadiusDirectional.horizontal(start: rad2);
-
-  /// Constructs a circular border radius of 4.5 for left direction
-  static const l3 = BorderRadiusDirectional.horizontal(start: rad3);
+  static const bottomMd = BorderRadius.vertical(bottom: md);
 
   /// Constructs a circular border radius of 6.0 for left direction
-  static const l4 = BorderRadiusDirectional.horizontal(start: rad4);
+  static const leftMd = BorderRadius.horizontal(left: md);
 
-  /// Constructs a circular border radius of 9.0 for left direction
-  static const l5 = BorderRadiusDirectional.horizontal(start: rad5);
+  /// Constructs a circular border radius of 8.0 for all directions
+  static const allLg = BorderRadius.all(lg);
+
+  /// Constructs a circular border radius of 8.0 for top direction
+  static const topLg = BorderRadius.vertical(top: lg);
+
+  /// Constructs a circular border radius of 8.0 for right direction
+  static const rightLg = BorderRadius.horizontal(right: lg);
+
+  /// Constructs a circular border radius of 8.0 for bottom direction
+  static const bottomLg = BorderRadius.vertical(bottom: lg);
+
+  /// Constructs a circular border radius of 8.0 for left direction
+  static const leftLg = BorderRadius.horizontal(left: lg);
+
+  /// Constructs a circular border radius of 12.0 for all directions
+  static const allXl = BorderRadius.all(xl);
+
+  /// Constructs a circular border radius of 12.0 for top direction
+  static const topXl = BorderRadius.vertical(top: xl);
+
+  /// Constructs a circular border radius of 12.0 for right direction
+  static const rightXl = BorderRadius.horizontal(right: xl);
+
+  /// Constructs a circular border radius of 12.0 for bottom direction
+  static const bottomXl = BorderRadius.vertical(bottom: xl);
 
   /// Constructs a circular border radius of 12.0 for left direction
-  static const l6 = BorderRadiusDirectional.horizontal(start: rad6);
+  static const leftXl = BorderRadius.horizontal(left: xl);
 
-  /// Constructs a circular border radius of 18.0 for left direction
-  static const l7 = BorderRadiusDirectional.horizontal(start: rad7);
+  /// Constructs a circular border radius of 16.0 for all directions
+  static const allXl2 = BorderRadius.all(xl2);
 
-  // [BorderRadiusDirectional Top-Start]
-  /// Constructs a circular border radius of 0.0 for top-start direction
-  static const ts0 = BorderRadiusDirectional.only(topStart: rad0);
+  /// Constructs a circular border radius of 16.0 for top direction
+  static const topXl2 = BorderRadius.vertical(top: xl2);
 
-  /// Constructs a circular border radius of 1.5 for top-start direction
-  static const ts1 = BorderRadiusDirectional.only(topStart: rad1);
+  /// Constructs a circular border radius of 16.0 for right direction
+  static const rightXl2 = BorderRadius.horizontal(right: xl2);
 
-  /// Constructs a circular border radius of 3.0 for top-start direction
-  static const ts2 = BorderRadiusDirectional.only(topStart: rad2);
+  /// Constructs a circular border radius of 16.0 for bottom direction
+  static const bottomXl2 = BorderRadius.vertical(bottom: xl2);
 
-  /// Constructs a circular border radius of 4.5 for top-start direction
-  static const ts3 = BorderRadiusDirectional.only(topStart: rad3);
+  /// Constructs a circular border radius of 16.0 for left direction
+  static const leftXl2 = BorderRadius.horizontal(left: xl2);
 
-  /// Constructs a circular border radius of 6.0 for top-start direction
-  static const ts4 = BorderRadiusDirectional.only(topStart: rad4);
+  /// Constructs a circular border radius of 20.0 for all directions
+  static const allXl3 = BorderRadius.all(xl3);
 
-  /// Constructs a circular border radius of 9.0 for top-start direction
-  static const ts5 = BorderRadiusDirectional.only(topStart: rad5);
+  /// Constructs a circular border radius of 20.0 for top direction
+  static const topXl3 = BorderRadius.vertical(top: xl3);
 
-  /// Constructs a circular border radius of 12.0 for top-start direction
-  static const ts6 = BorderRadiusDirectional.only(topStart: rad6);
+  /// Constructs a circular border radius of 20.0 for right direction
+  static const rightXl3 = BorderRadius.horizontal(right: xl3);
 
-  /// Constructs a circular border radius of 18.0 for top-start direction
-  static const ts7 = BorderRadiusDirectional.only(topStart: rad7);
+  /// Constructs a circular border radius of 20.0 for bottom direction
+  static const bottomXl3 = BorderRadius.vertical(bottom: xl3);
 
-  // [BorderRadiusDirectional Top-End]
-  /// Constructs a circular border radius of 0.0 for top-end direction
-  static const te0 = BorderRadiusDirectional.only(topEnd: rad0);
+  /// Constructs a circular border radius of 20.0 for left direction
+  static const leftXl3 = BorderRadius.horizontal(left: xl3);
 
-  /// Constructs a circular border radius of 1.5 for top-end direction
-  static const te1 = BorderRadiusDirectional.only(topEnd: rad1);
+  /// Constructs a circular border radius of 24.0 for all directions
+  static const allXl4 = BorderRadius.all(xl4);
 
-  /// Constructs a circular border radius of 3.0 for top-end direction
-  static const te2 = BorderRadiusDirectional.only(topEnd: rad2);
+  /// Constructs a circular border radius of 24.0 for top direction
+  static const topXl4 = BorderRadius.vertical(top: xl4);
 
-  /// Constructs a circular border radius of 4.5 for top-end direction
-  static const te3 = BorderRadiusDirectional.only(topEnd: rad3);
+  /// Constructs a circular border radius of 24.0 for right direction
+  static const rightXl4 = BorderRadius.horizontal(right: xl4);
 
-  /// Constructs a circular border radius of 6.0 for top-end direction
-  static const te4 = BorderRadiusDirectional.only(topEnd: rad4);
+  /// Constructs a circular border radius of 24.0 for bottom direction
+  static const bottomXl4 = BorderRadius.vertical(bottom: xl4);
 
-  /// Constructs a circular border radius of 9.0 for top-end direction
-  static const te5 = BorderRadiusDirectional.only(topEnd: rad5);
+  /// Constructs a circular border radius of 24.0 for left direction
+  static const leftXl4 = BorderRadius.horizontal(left: xl4);
 
-  /// Constructs a circular border radius of 12.0 for top-end direction
-  static const te6 = BorderRadiusDirectional.only(topEnd: rad6);
+  /// Constructs a circular border radius of 28.0 for all directions
+  static const allXl5 = BorderRadius.all(xl5);
 
-  /// Constructs a circular border radius of 18.0 for top-end direction
-  static const te7 = BorderRadiusDirectional.only(topEnd: rad7);
+  /// Constructs a circular border radius of 28.0 for top direction
+  static const topXl5 = BorderRadius.vertical(top: xl5);
 
-  // [BorderRadiusDirectional Bottom-Start]
-  /// Constructs a circular border radius of 0.0 for bottom-start direction
-  static const bs0 = BorderRadiusDirectional.only(bottomStart: rad0);
+  /// Constructs a circular border radius of 28.0 for right direction
+  static const rightXl5 = BorderRadius.horizontal(right: xl5);
 
-  /// Constructs a circular border radius of 1.5 for bottom-start direction
-  static const bs1 = BorderRadiusDirectional.only(bottomStart: rad1);
+  /// Constructs a circular border radius of 28.0 for bottom direction
+  static const bottomXl5 = BorderRadius.vertical(bottom: xl5);
 
-  /// Constructs a circular border radius of 3.0 for bottom-start direction
-  static const bs2 = BorderRadiusDirectional.only(bottomStart: rad2);
+  /// Constructs a circular border radius of 28.0 for left direction
+  static const leftXl5 = BorderRadius.horizontal(left: xl5);
 
-  /// Constructs a circular border radius of 4.5 for bottom-start direction
-  static const bs3 = BorderRadiusDirectional.only(bottomStart: rad3);
+  /// Constructs a circular border radius of 32.0 for all directions
+  static const allXl6 = BorderRadius.all(xl6);
 
-  /// Constructs a circular border radius of 6.0 for bottom-start direction
-  static const bs4 = BorderRadiusDirectional.only(bottomStart: rad4);
+  /// Constructs a circular border radius of 32.0 for top direction
+  static const topXl6 = BorderRadius.vertical(top: xl6);
 
-  /// Constructs a circular border radius of 9.0 for bottom-start direction
-  static const bs5 = BorderRadiusDirectional.only(bottomStart: rad5);
+  /// Constructs a circular border radius of 32.0 for right direction
+  static const rightXl6 = BorderRadius.horizontal(right: xl6);
 
-  /// Constructs a circular border radius of 12.0 for bottom-start direction
-  static const bs6 = BorderRadiusDirectional.only(bottomStart: rad6);
+  /// Constructs a circular border radius of 32.0 for bottom direction
+  static const bottomXl6 = BorderRadius.vertical(bottom: xl6);
 
-  /// Constructs a circular border radius of 18.0 for bottom-start direction
-  static const bs7 = BorderRadiusDirectional.only(bottomStart: rad7);
+  /// Constructs a circular border radius of 32.0 for left direction
+  static const leftXl6 = BorderRadius.horizontal(left: xl6);
 
-  // [BorderRadiusDirectional Bottom-End]
-  /// Constructs a circular border radius of 0.0 for bottom-end direction
-  static const be0 = BorderRadiusDirectional.only(bottomEnd: rad0);
+  /// Constructs a circular border radius of 9999.0 for all directions
+  static const allFull = BorderRadius.all(full);
 
-  /// Constructs a circular border radius of 1.5 for bottom-end direction
-  static const be1 = BorderRadiusDirectional.only(bottomEnd: rad1);
+  /// Constructs a circular border radius of 9999.0 for top direction
+  static const topFull = BorderRadius.vertical(top: full);
 
-  /// Constructs a circular border radius of 3.0 for bottom-end direction
-  static const be2 = BorderRadiusDirectional.only(bottomEnd: rad2);
+  /// Constructs a circular border radius of 9999.0 for right direction
+  static const rightFull = BorderRadius.horizontal(right: full);
 
-  /// Constructs a circular border radius of 4.5 for bottom-end direction
-  static const be3 = BorderRadiusDirectional.only(bottomEnd: rad3);
+  /// Constructs a circular border radius of 9999.0 for bottom direction
+  static const bottomFull = BorderRadius.vertical(bottom: full);
 
-  /// Constructs a circular border radius of 6.0 for bottom-end direction
-  static const be4 = BorderRadiusDirectional.only(bottomEnd: rad4);
+  /// Constructs a circular border radius of 9999.0 for left direction
+  static const leftFull = BorderRadius.horizontal(left: full);
 
-  /// Constructs a circular border radius of 9.0 for bottom-end direction
-  static const be5 = BorderRadiusDirectional.only(bottomEnd: rad5);
+  /// Constructs a circular border radius of 0.0 for topLeft direction
+  static const topLeftNone = BorderRadius.only(topLeft: none);
 
-  /// Constructs a circular border radius of 12.0 for bottom-end direction
-  static const be6 = BorderRadiusDirectional.only(bottomEnd: rad6);
+  /// Constructs a circular border radius of 0.0 for topRight direction
+  static const topRightNone = BorderRadius.only(topRight: none);
 
-  /// Constructs a circular border radius of 18.0 for bottom-end direction
-  static const be7 = BorderRadiusDirectional.only(bottomEnd: rad7);
+  /// Constructs a circular border radius of 0.0 for bottomLeft direction
+  static const bottomLeftNone = BorderRadius.only(bottomLeft: none);
 
-  // [BorderRadiusDirectional Shape]
-  /// Constructs a circle
-  static const circle = BorderRadiusDirectional.all(Radius.circular(9999));
+  /// Constructs a circular border radius of 0.0 for bottomRight direction
+  static const bottomRightNone = BorderRadius.only(bottomRight: none);
+
+  /// Constructs a circular border radius of 2.0 for topLeft direction
+  static const topLeftXs = BorderRadius.only(topLeft: xs);
+
+  /// Constructs a circular border radius of 2.0 for topRight direction
+  static const topRightXs = BorderRadius.only(topRight: xs);
+
+  /// Constructs a circular border radius of 2.0 for bottomLeft direction
+  static const bottomLeftXs = BorderRadius.only(bottomLeft: xs);
+
+  /// Constructs a circular border radius of 2.0 for bottomRight direction
+  static const bottomRightXs = BorderRadius.only(bottomRight: xs);
+
+  /// Constructs a circular border radius of 4.0 for topLeft direction
+  static const topLeftSm = BorderRadius.only(topLeft: sm);
+
+  /// Constructs a circular border radius of 4.0 for topRight direction
+  static const topRightSm = BorderRadius.only(topRight: sm);
+
+  /// Constructs a circular border radius of 4.0 for bottomLeft direction
+  static const bottomLeftSm = BorderRadius.only(bottomLeft: sm);
+
+  /// Constructs a circular border radius of 4.0 for bottomRight direction
+  static const bottomRightSm = BorderRadius.only(bottomRight: sm);
+
+  /// Constructs a circular border radius of 6.0 for topLeft direction
+  static const topLeftMd = BorderRadius.only(topLeft: md);
+
+  /// Constructs a circular border radius of 6.0 for topRight direction
+  static const topRightMd = BorderRadius.only(topRight: md);
+
+  /// Constructs a circular border radius of 6.0 for bottomLeft direction
+  static const bottomLeftMd = BorderRadius.only(bottomLeft: md);
+
+  /// Constructs a circular border radius of 6.0 for bottomRight direction
+  static const bottomRightMd = BorderRadius.only(bottomRight: md);
+
+  /// Constructs a circular border radius of 8.0 for topLeft direction
+  static const topLeftLg = BorderRadius.only(topLeft: lg);
+
+  /// Constructs a circular border radius of 8.0 for topRight direction
+  static const topRightLg = BorderRadius.only(topRight: lg);
+
+  /// Constructs a circular border radius of 8.0 for bottomLeft direction
+  static const bottomLeftLg = BorderRadius.only(bottomLeft: lg);
+
+  /// Constructs a circular border radius of 8.0 for bottomRight direction
+  static const bottomRightLg = BorderRadius.only(bottomRight: lg);
+
+  /// Constructs a circular border radius of 12.0 for topLeft direction
+  static const topLeftXl = BorderRadius.only(topLeft: xl);
+
+  /// Constructs a circular border radius of 12.0 for topRight direction
+  static const topRightXl = BorderRadius.only(topRight: xl);
+
+  /// Constructs a circular border radius of 12.0 for bottomLeft direction
+  static const bottomLeftXl = BorderRadius.only(bottomLeft: xl);
+
+  /// Constructs a circular border radius of 12.0 for bottomRight direction
+  static const bottomRightXl = BorderRadius.only(bottomRight: xl);
+
+  /// Constructs a circular border radius of 16.0 for topLeft direction
+  static const topLeftXl2 = BorderRadius.only(topLeft: xl2);
+
+  /// Constructs a circular border radius of 16.0 for topRight direction
+  static const topRightXl2 = BorderRadius.only(topRight: xl2);
+
+  /// Constructs a circular border radius of 16.0 for bottomLeft direction
+  static const bottomLeftXl2 = BorderRadius.only(bottomLeft: xl2);
+
+  /// Constructs a circular border radius of 16.0 for bottomRight direction
+  static const bottomRightXl2 = BorderRadius.only(bottomRight: xl2);
+
+  /// Constructs a circular border radius of 20.0 for topLeft direction
+  static const topLeftXl3 = BorderRadius.only(topLeft: xl3);
+
+  /// Constructs a circular border radius of 20.0 for topRight direction
+  static const topRightXl3 = BorderRadius.only(topRight: xl3);
+
+  /// Constructs a circular border radius of 20.0 for bottomLeft direction
+  static const bottomLeftXl3 = BorderRadius.only(bottomLeft: xl3);
+
+  /// Constructs a circular border radius of 20.0 for bottomRight direction
+  static const bottomRightXl3 = BorderRadius.only(bottomRight: xl3);
+
+  /// Constructs a circular border radius of 24.0 for topLeft direction
+  static const topLeftXl4 = BorderRadius.only(topLeft: xl4);
+
+  /// Constructs a circular border radius of 24.0 for topRight direction
+  static const topRightXl4 = BorderRadius.only(topRight: xl4);
+
+  /// Constructs a circular border radius of 24.0 for bottomLeft direction
+  static const bottomLeftXl4 = BorderRadius.only(bottomLeft: xl4);
+
+  /// Constructs a circular border radius of 24.0 for bottomRight direction
+  static const bottomRightXl4 = BorderRadius.only(bottomRight: xl4);
+
+  /// Constructs a circular border radius of 28.0 for topLeft direction
+  static const topLeftXl5 = BorderRadius.only(topLeft: xl5);
+
+  /// Constructs a circular border radius of 28.0 for topRight direction
+  static const topRightXl5 = BorderRadius.only(topRight: xl5);
+
+  /// Constructs a circular border radius of 28.0 for bottomLeft direction
+  static const bottomLeftXl5 = BorderRadius.only(bottomLeft: xl5);
+
+  /// Constructs a circular border radius of 28.0 for bottomRight direction
+  static const bottomRightXl5 = BorderRadius.only(bottomRight: xl5);
+
+  /// Constructs a circular border radius of 32.0 for topLeft direction
+  static const topLeftXl6 = BorderRadius.only(topLeft: xl6);
+
+  /// Constructs a circular border radius of 32.0 for topRight direction
+  static const topRightXl6 = BorderRadius.only(topRight: xl6);
+
+  /// Constructs a circular border radius of 32.0 for bottomLeft direction
+  static const bottomLeftXl6 = BorderRadius.only(bottomLeft: xl6);
+
+  /// Constructs a circular border radius of 32.0 for bottomRight direction
+  static const bottomRightXl6 = BorderRadius.only(bottomRight: xl6);
+
+  /// Constructs a circular border radius of 9999.0 for topLeft direction
+  static const topLeftFull = BorderRadius.only(topLeft: full);
+
+  /// Constructs a circular border radius of 9999.0 for topRight direction
+  static const topRightFull = BorderRadius.only(topRight: full);
+
+  /// Constructs a circular border radius of 9999.0 for bottomLeft direction
+  static const bottomLeftFull = BorderRadius.only(bottomLeft: full);
+
+  /// Constructs a circular border radius of 9999.0 for bottomRight direction
+  static const bottomRightFull = BorderRadius.only(bottomRight: full);
 }
