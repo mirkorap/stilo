@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Defines height constants
+/// A class that defines height constants
 abstract class StiloHeight {
   /// Defines an height of 0.0
   static const h0 = 0.0;
@@ -23,14 +23,26 @@ abstract class StiloHeight {
   /// Defines an height of 24.0
   static const h6 = 24.0;
 
+  /// Defines an height of 28.0
+  static const h7 = 28.0;
+
   /// Defines an height of 32.0
   static const h8 = 32.0;
+
+  /// Defines an height of 36.0
+  static const h9 = 36.0;
 
   /// Defines an height of 40.0
   static const h10 = 40.0;
 
+  /// Defines an height of 44.0
+  static const h11 = 44.0;
+
   /// Defines an height of 48.0
   static const h12 = 48.0;
+
+  /// Defines an height of 56.0
+  static const h14 = 56.0;
 
   /// Defines an height of 64.0
   static const h16 = 64.0;
@@ -41,20 +53,44 @@ abstract class StiloHeight {
   /// Defines an height of 96.0
   static const h24 = 96.0;
 
+  /// Defines an height of 112.0
+  static const h28 = 112.0;
+
   /// Defines an height of 128.0
   static const h32 = 128.0;
+
+  /// Defines an height of 144.0
+  static const h36 = 144.0;
 
   /// Defines an height of 160.0
   static const h40 = 160.0;
 
+  /// Defines an height of 176.0
+  static const h44 = 176.0;
+
   /// Defines an height of 192.0
   static const h48 = 192.0;
+
+  /// Defines an height of 208.0
+  static const h52 = 208.0;
 
   /// Defines an height of 224.0
   static const h56 = 224.0;
 
+  /// Defines an height of 240.0
+  static const h60 = 240.0;
+
   /// Defines an height of 256.0
   static const h64 = 256.0;
+
+  /// Defines an height of 288.0
+  static const h72 = 288.0;
+
+  /// Defines an height of 320.0
+  static const h80 = 320.0;
+
+  /// Defines an height of 384.0
+  static const h96 = 384.0;
 
   /// Defines an height of 50% of the screen size
   static double oneHalf(BuildContext context) {
