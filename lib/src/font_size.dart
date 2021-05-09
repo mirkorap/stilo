@@ -1,4 +1,4 @@
-/// Defines font size constants
+/// A class that defines font size constants
 abstract class StiloFontSize {
   /// Defines a font size of 9.0
   static const xs = 9.0;
