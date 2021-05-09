@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Defines width constants
+/// A class that defines width constants
 abstract class StiloWidth {
   /// Defines a width of 0.0
   static const w0 = 0.0;
@@ -23,14 +23,26 @@ abstract class StiloWidth {
   /// Defines a width of 24.0
   static const w6 = 24.0;
 
+  /// Defines a width of 28.0
+  static const w7 = 28.0;
+
   /// Defines a width of 32.0
   static const w8 = 32.0;
+
+  /// Defines a width of 36.0
+  static const w9 = 36.0;
 
   /// Defines a width of 40.0
   static const w10 = 40.0;
 
+  /// Defines a width of 44.0
+  static const w11 = 44.0;
+
   /// Defines a width of 48.0
   static const w12 = 48.0;
+
+  /// Defines a width of 56.0
+  static const w14 = 56.0;
 
   /// Defines a width of 64.0
   static const w16 = 64.0;
@@ -41,20 +53,44 @@ abstract class StiloWidth {
   /// Defines a width of 96.0
   static const w24 = 96.0;
 
+  /// Defines a width of 112.0
+  static const w28 = 112.0;
+
   /// Defines a width of 128.0
   static const w32 = 128.0;
+
+  /// Defines a width of 144.0
+  static const w36 = 144.0;
 
   /// Defines a width of 160.0
   static const w40 = 160.0;
 
+  /// Defines a width of 176.0
+  static const w44 = 176.0;
+
   /// Defines a width of 192.0
   static const w48 = 192.0;
+
+  /// Defines a width of 208.0
+  static const w52 = 208.0;
 
   /// Defines a width of 224.0
   static const w56 = 224.0;
 
+  /// Defines a width of 240.0
+  static const w60 = 240.0;
+
   /// Defines a width of 256.0
   static const w64 = 256.0;
+
+  /// Defines a width of 288.0
+  static const w72 = 288.0;
+
+  /// Defines a width of 320.0
+  static const w80 = 320.0;
+
+  /// Defines a width of 384.0
+  static const w96 = 384.0;
 
   /// Defines a width of 50% of the screen size
   static double oneHalf(BuildContext context) {
