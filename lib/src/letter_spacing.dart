@@ -1,4 +1,4 @@
-/// Defines letter spacing constants
+/// A class that defines letter spacing constants
 abstract class StiloLetterSpacing {
   /// Defines a letter spacing of -0.6
   static const tighter = -0.6;
