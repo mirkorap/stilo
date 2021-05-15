@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import './config.dart';
 
 /// A class that constructs [SizedBox] widgets based on spacing constants

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import './color.dart';
 
 /// A class that constructs [Divider] widgets
