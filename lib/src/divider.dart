@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stilo/src/color.dart';
+import './color.dart';
 
 /// A class that constructs [Divider] widgets
 abstract class StiloDivider {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stilo/src/config.dart';
+import './config.dart';
 
 /// A class that constructs [Transform] widgets based on offset constants
 abstract class StiloTransformTranslate {

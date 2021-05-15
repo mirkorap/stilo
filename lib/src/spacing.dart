@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stilo/src/config.dart';
+import './config.dart';
 
 /// A class that constructs [SizedBox] widgets based on spacing constants
 abstract class StiloSpacing {
