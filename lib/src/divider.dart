@@ -1,57 +1,75 @@
 import 'package:flutter/material.dart';
+import 'package:stilo/src/color.dart';
 
-/// Defines diver constants
+/// A class that constructs [Divider] widgets
 abstract class StiloDivider {
-  static const _color = Colors.black;
-  static const _indent = 0.0;
+  static const _defaultColor = StiloColor.black30;
+  static const _defaultIndent = 0.0;
+  static const _defaultThickness = 1.5;
 
-  /// Constructs a divider with 1.0 of height
-  static xs({double indent = _indent}) {
+  /// Constructs a [Divider] with 0.0 of height
+  static Divider divide0({Color color = _defaultColor, double indent = _defaultIndent}) {
     return Divider(
-      color: _color,
-      height: 1.0,
+      height: 0.0,
+      thickness: _defaultThickness,
       indent: indent,
       endIndent: indent,
+      color: color,
     );
   }
 
-  /// Constructs a divider with 2.0 of height
-  static sm({double indent = _indent}) {
+  /// Constructs a [Divider] with 2.0 of height
+  static Divider divide2({Color color = _defaultColor, double indent = _defaultIndent}) {
     return Divider(
-      color: _color,
       height: 2.0,
+      thickness: _defaultThickness,
       indent: indent,
       endIndent: indent,
+      color: color,
     );
   }
 
-  /// Constructs a divider with 4.0 of height
-  static md({double indent = _indent}) {
+  /// Constructs a [Divider] with 4.0 of height
+  static Divider divide4({Color color = _defaultColor, double indent = _defaultIndent}) {
     return Divider(
-      color: _color,
       height: 4.0,
+      thickness: _defaultThickness,
       indent: indent,
       endIndent: indent,
+      color: color,
     );
   }
 
-  /// Constructs a divider with 6.0 of height
-  static lg({double indent = _indent}) {
+  /// Constructs a [Divider] with 6.0 of height
+  static Divider divide6({Color color = _defaultColor, double indent = _defaultIndent}) {
     return Divider(
-      color: _color,
       height: 6.0,
+      thickness: _defaultThickness,
       indent: indent,
       endIndent: indent,
+      color: color,
     );
   }
 
-  /// Constructs a divider with 8.0 of height
-  static xl({double indent = _indent}) {
+  /// Constructs a [Divider] with 8.0 of height
+  static Divider divide8({Color color = _defaultColor, double indent = _defaultIndent}) {
     return Divider(
-      color: _color,
       height: 8.0,
+      thickness: _defaultThickness,
       indent: indent,
       endIndent: indent,
+      color: color,
+    );
+  }
+
+  /// Constructs a [Divider] with 10.0 of height
+  static Divider divide10({Color color = _defaultColor, double indent = _defaultIndent}) {
+    return Divider(
+      height: 10.0,
+      thickness: _defaultThickness,
+      indent: indent,
+      endIndent: indent,
+      color: color,
     );
   }
 }
