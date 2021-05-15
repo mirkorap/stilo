@@ -1,4 +1,4 @@
-/// Defines gap constants to use in [GridView] widget (crossAxisSpacing, mainAxisSpacing)
+/// A class that defines gap constants to use in [GridView] widget (crossAxisSpacing, mainAxisSpacing)
 abstract class StiloGridGap {
   /// Defines a gap of 0.0
   static const gap0 = 0.0;
