@@ -9,7 +9,10 @@ abstract class StiloDivider {
   static const _defaultThickness = 1.5;
 
   /// Constructs a [Divider] with 0.0 of height
-  static Divider divide0({Color color = _defaultColor, double indent = _defaultIndent}) {
+  static Divider divide0({
+    Color color = _defaultColor,
+    double indent = _defaultIndent,
+  }) {
     return Divider(
       height: 0.0,
       thickness: _defaultThickness,
@@ -20,7 +23,10 @@ abstract class StiloDivider {
   }
 
   /// Constructs a [Divider] with 2.0 of height
-  static Divider divide2({Color color = _defaultColor, double indent = _defaultIndent}) {
+  static Divider divide2({
+    Color color = _defaultColor,
+    double indent = _defaultIndent,
+  }) {
     return Divider(
       height: 2.0,
       thickness: _defaultThickness,
@@ -31,7 +37,10 @@ abstract class StiloDivider {
   }
 
   /// Constructs a [Divider] with 4.0 of height
-  static Divider divide4({Color color = _defaultColor, double indent = _defaultIndent}) {
+  static Divider divide4({
+    Color color = _defaultColor,
+    double indent = _defaultIndent,
+  }) {
     return Divider(
       height: 4.0,
       thickness: _defaultThickness,
@@ -42,7 +51,10 @@ abstract class StiloDivider {
   }
 
   /// Constructs a [Divider] with 6.0 of height
-  static Divider divide6({Color color = _defaultColor, double indent = _defaultIndent}) {
+  static Divider divide6({
+    Color color = _defaultColor,
+    double indent = _defaultIndent,
+  }) {
     return Divider(
       height: 6.0,
       thickness: _defaultThickness,
@@ -53,7 +65,10 @@ abstract class StiloDivider {
   }
 
   /// Constructs a [Divider] with 8.0 of height
-  static Divider divide8({Color color = _defaultColor, double indent = _defaultIndent}) {
+  static Divider divide8({
+    Color color = _defaultColor,
+    double indent = _defaultIndent,
+  }) {
     return Divider(
       height: 8.0,
       thickness: _defaultThickness,
@@ -64,7 +79,10 @@ abstract class StiloDivider {
   }
 
   /// Constructs a [Divider] with 10.0 of height
-  static Divider divide10({Color color = _defaultColor, double indent = _defaultIndent}) {
+  static Divider divide10({
+    Color color = _defaultColor,
+    double indent = _defaultIndent,
+  }) {
     return Divider(
       height: 10.0,
       thickness: _defaultThickness,
