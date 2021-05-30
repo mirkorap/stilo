@@ -1,7 +1,10 @@
 name: stilo
 description: Stilo is a utility-first Flutter library that gives you all of the building constants you need to build designs without defining common styles
 version: 2.0.0
-homepage: https://github.com/mirkorap/stilo
+repository: https://github.com/mirkorap/stilo
+issue_tracker: https://github.com/mirkorap/stilo/issues
+homepage: https://stilo.netlify.app
+documentation: https://stilo.netlify.app/docs/installation
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
