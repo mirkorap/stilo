@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-/// Defines font weight constants
-/// This class remap Flutter's font weights with a more readble name
+/// A class that defines font weight constants
+/// This class remap Flutter's font weights with a more readable name
 abstract class StiloFontWeight {
   /// Defines a thin font weight (100)
   static const thin = FontWeight.w100;

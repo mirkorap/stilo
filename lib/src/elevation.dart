@@ -1,4 +1,4 @@
-/// Defines elevation constants
+/// A class that defines elevation constants
 abstract class StiloElevation {
   /// Defines an elevation of 0.0
   static const z0 = 0.0;

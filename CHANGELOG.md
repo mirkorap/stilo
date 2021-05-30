@@ -18,3 +18,9 @@
 ## [1.1.2] - 2021-02-07
 * Fix durations types. Replace microseconds with milliseconds
 * Add new durations types
+
+## [2.0.0] - 2021-05-15
+* Add new constants based on a new spacing scale
+* Improve naming of public constant values
+* Improve docs of class constants
+* Migrated to null safety

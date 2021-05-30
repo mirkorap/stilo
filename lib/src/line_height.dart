@@ -1,4 +1,4 @@
-/// Defines line height constants
+/// A class that defines line height constants
 abstract class StiloLineHeight {
   /// Defines a line height of 1.0
   static const none = 1.0;

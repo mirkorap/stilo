@@ -1,144 +1,244 @@
 import 'package:flutter/material.dart';
 
-/// Defines border constants
+/// A class that constructs [Border] constants
 abstract class StiloBorder {
-  static _b0(Color color) => BorderSide(color: color, width: 0.0);
-  static _b2(Color color) => BorderSide(color: color, width: 2.0);
-  static _b4(Color color) => BorderSide(color: color, width: 4.0);
-  static _b6(Color color) => BorderSide(color: color, width: 6.0);
-  static _b8(Color color) => BorderSide(color: color, width: 8.0);
-  static _b10(Color color) => BorderSide(color: color, width: 10.0);
+  /// Defines a [BorderSide] with a width of 0.0
+  static BorderSide side0(Color color) {
+    return BorderSide(color: color, width: 0.0);
+  }
 
-  // [Border All]
-  /// Constructs a border of 0.0 for all directions
-  static a0(Color color) => Border.fromBorderSide(_b0(color));
+  /// Defines a [BorderSide] with a width of 2.0
+  static BorderSide side2(Color color) {
+    return BorderSide(color: color, width: 2.0);
+  }
 
-  /// Constructs a border of 2.0 for all directions
-  static a2(Color color) => Border.fromBorderSide(_b2(color));
+  /// Defines a [BorderSide] with a width of 4.0
+  static BorderSide side4(Color color) {
+    return BorderSide(color: color, width: 4.0);
+  }
 
-  /// Constructs a border of 4.0 for all directions
-  static a4(Color color) => Border.fromBorderSide(_b4(color));
+  /// Defines a [BorderSide] with a width of 6.0
+  static BorderSide side6(Color color) {
+    return BorderSide(color: color, width: 6.0);
+  }
 
-  /// Constructs a border of 6.0 for all directions
-  static a6(Color color) => Border.fromBorderSide(_b6(color));
+  /// Defines a [BorderSide] with a width of 8.0
+  static BorderSide side8(Color color) {
+    return BorderSide(color: color, width: 8.0);
+  }
 
-  /// Constructs a border of 8.0 for all directions
-  static a8(Color color) => Border.fromBorderSide(_b8(color));
+  /// Defines a [BorderSide] with a width of 10.0
+  static BorderSide side10(Color color) {
+    return BorderSide(color: color, width: 10.0);
+  }
 
-  /// Constructs a border of 10.0 for all directions
-  static a10(Color color) => Border.fromBorderSide(_b10(color));
+  /// Constructs a [Border] with a width of 0.0 for all directions
+  static Border all0(Color color) {
+    return Border.fromBorderSide(side0(color));
+  }
 
-  // [Border Horizontal]
-  /// Constructs a border of 0.0 for horizontal directions
-  static x0(Color color) => Border.symmetric(horizontal: _b0(color));
+  /// Constructs a [Border] with a width of 0.0 for horizontal directions
+  static Border horiz0(Color color) {
+    return Border.symmetric(horizontal: side0(color));
+  }
 
-  /// Constructs a border of 2.0 for horizontal directions
-  static x2(Color color) => Border.symmetric(horizontal: _b2(color));
+  /// Constructs a [Border] with a width of 0.0 for vertical directions
+  static Border vert0(Color color) {
+    return Border.symmetric(vertical: side0(color));
+  }
 
-  /// Constructs a border of 4.0 for horizontal directions
-  static x4(Color color) => Border.symmetric(horizontal: _b4(color));
+  /// Constructs a [Border] with a width of 0.0 for top direction
+  static Border top0(Color color) {
+    return Border(top: side0(color));
+  }
 
-  /// Constructs a border of 6.0 for horizontal directions
-  static x6(Color color) => Border.symmetric(horizontal: _b6(color));
+  /// Constructs a [Border] with a width of 0.0 for right direction
+  static Border right0(Color color) {
+    return Border(right: side0(color));
+  }
 
-  /// Constructs a border of 8.0 for horizontal directions
-  static x8(Color color) => Border.symmetric(horizontal: _b8(color));
+  /// Constructs a [Border] with a width of 0.0 for bottom direction
+  static Border bottom0(Color color) {
+    return Border(bottom: side0(color));
+  }
 
-  /// Constructs a border of 10.0 for horizontal directions
-  static x10(Color color) => Border.symmetric(horizontal: _b10(color));
+  /// Constructs a [Border] with a width of 0.0 for left direction
+  static Border left0(Color color) {
+    return Border(left: side0(color));
+  }
 
-  // [Border Vertical]
-  /// Constructs a border of 0.0 for vertical directions
-  static y0(Color color) => Border.symmetric(vertical: _b0(color));
+  /// Constructs a [Border] with a width of 2.0 for all directions
+  static Border all2(Color color) {
+    return Border.fromBorderSide(side2(color));
+  }
 
-  /// Constructs a border of 2.0 for vertical directions
-  static y2(Color color) => Border.symmetric(vertical: _b2(color));
+  /// Constructs a [Border] with a width of 2.0 for horizontal directions
+  static Border horiz2(Color color) {
+    return Border.symmetric(horizontal: side2(color));
+  }
 
-  /// Constructs a border of 4.0 for vertical directions
-  static y4(Color color) => Border.symmetric(vertical: _b4(color));
+  /// Constructs a [Border] with a width of 2.0 for vertical directions
+  static Border vert2(Color color) {
+    return Border.symmetric(vertical: side2(color));
+  }
 
-  /// Constructs a border of 6.0 for vertical directions
-  static y6(Color color) => Border.symmetric(vertical: _b6(color));
+  /// Constructs a [Border] with a width of 2.0 for top direction
+  static Border top2(Color color) {
+    return Border(top: side2(color));
+  }
 
-  /// Constructs a border of 8.0 for vertical directions
-  static y8(Color color) => Border.symmetric(vertical: _b8(color));
+  /// Constructs a [Border] with a width of 2.0 for right direction
+  static Border right2(Color color) {
+    return Border(right: side2(color));
+  }
 
-  /// Constructs a border of 10.0 for vertical directions
-  static y10(Color color) => Border.symmetric(vertical: _b10(color));
+  /// Constructs a [Border] with a width of 2.0 for bottom direction
+  static Border bottom2(Color color) {
+    return Border(bottom: side2(color));
+  }
 
-  // [Border Top]
-  /// Constructs a border of 0.0 for top direction
-  static t0(Color color) => Border(top: _b0(color));
+  /// Constructs a [Border] with a width of 2.0 for left direction
+  static Border left2(Color color) {
+    return Border(left: side2(color));
+  }
 
-  /// Constructs a border of 2.0 for top direction
-  static t2(Color color) => Border(top: _b2(color));
+  /// Constructs a [Border] with a width of 4.0 for all directions
+  static Border all4(Color color) {
+    return Border.fromBorderSide(side4(color));
+  }
 
-  /// Constructs a border of 4.0 for top direction
-  static t4(Color color) => Border(top: _b4(color));
+  /// Constructs a [Border] with a width of 4.0 for horizontal directions
+  static Border horiz4(Color color) {
+    return Border.symmetric(horizontal: side4(color));
+  }
 
-  /// Constructs a border of 6.0 for top direction
-  static t6(Color color) => Border(top: _b6(color));
+  /// Constructs a [Border] with a width of 4.0 for vertical directions
+  static Border vert4(Color color) {
+    return Border.symmetric(vertical: side4(color));
+  }
 
-  /// Constructs a border of 8.0 for top direction
-  static t8(Color color) => Border(top: _b8(color));
+  /// Constructs a [Border] with a width of 4.0 for top direction
+  static Border top4(Color color) {
+    return Border(top: side4(color));
+  }
 
-  /// Constructs a border of 10.0 for top direction
-  static t10(Color color) => Border(top: _b10(color));
+  /// Constructs a [Border] with a width of 4.0 for right direction
+  static Border right4(Color color) {
+    return Border(right: side4(color));
+  }
 
-  // [Border Right]
-  /// Constructs a border of 0.0 for right direction
-  static r0(Color color) => Border(right: _b0(color));
+  /// Constructs a [Border] with a width of 4.0 for bottom direction
+  static Border bottom4(Color color) {
+    return Border(bottom: side4(color));
+  }
 
-  /// Constructs a border of 2.0 for right direction
-  static r2(Color color) => Border(right: _b2(color));
+  /// Constructs a [Border] with a width of 4.0 for left direction
+  static Border left4(Color color) {
+    return Border(left: side4(color));
+  }
 
-  /// Constructs a border of 4.0 for right direction
-  static r4(Color color) => Border(right: _b4(color));
+  /// Constructs a [Border] with a width of 6.0 for all directions
+  static Border all6(Color color) {
+    return Border.fromBorderSide(side6(color));
+  }
 
-  /// Constructs a border of 6.0 for right direction
-  static r6(Color color) => Border(right: _b6(color));
+  /// Constructs a [Border] with a width of 6.0 for horizontal directions
+  static Border horiz6(Color color) {
+    return Border.symmetric(horizontal: side6(color));
+  }
 
-  /// Constructs a border of 8.0 for right direction
-  static r8(Color color) => Border(right: _b8(color));
+  /// Constructs a [Border] with a width of 6.0 for vertical directions
+  static Border vert6(Color color) {
+    return Border.symmetric(vertical: side6(color));
+  }
 
-  /// Constructs a border of 10.0 for right direction
-  static r10(Color color) => Border(right: _b10(color));
+  /// Constructs a [Border] with a width of 6.0 for top direction
+  static Border top6(Color color) {
+    return Border(top: side6(color));
+  }
 
-  // [Border Bottom]
-  /// Constructs a border of 0.0 for bottom direction
-  static b0(Color color) => Border(bottom: _b0(color));
+  /// Constructs a [Border] with a width of 6.0 for right direction
+  static Border right6(Color color) {
+    return Border(right: side6(color));
+  }
 
-  /// Constructs a border of 2.0 for bottom direction
-  static b2(Color color) => Border(bottom: _b2(color));
+  /// Constructs a [Border] with a width of 6.0 for bottom direction
+  static Border bottom6(Color color) {
+    return Border(bottom: side6(color));
+  }
 
-  /// Constructs a border of 4.0 for bottom direction
-  static b4(Color color) => Border(bottom: _b4(color));
+  /// Constructs a [Border] with a width of 6.0 for left direction
+  static Border left6(Color color) {
+    return Border(left: side6(color));
+  }
 
-  /// Constructs a border of 6.0 for bottom direction
-  static b6(Color color) => Border(bottom: _b6(color));
+  /// Constructs a [Border] with a width of 8.0 for all directions
+  static Border all8(Color color) {
+    return Border.fromBorderSide(side8(color));
+  }
 
-  /// Constructs a border of 8.0 for bottom direction
-  static b8(Color color) => Border(bottom: _b8(color));
+  /// Constructs a [Border] with a width of 8.0 for horizontal directions
+  static Border horiz8(Color color) {
+    return Border.symmetric(horizontal: side8(color));
+  }
 
-  /// Constructs a border of 10.0 for bottom direction
-  static b10(Color color) => Border(bottom: _b10(color));
+  /// Constructs a [Border] with a width of 8.0 for vertical directions
+  static Border vert8(Color color) {
+    return Border.symmetric(vertical: side8(color));
+  }
 
-  // [Border Left]
-  /// Constructs a border of 0.0 for left direction
-  static l0(Color color) => Border(left: _b0(color));
+  /// Constructs a [Border] with a width of 8.0 for top direction
+  static Border top8(Color color) {
+    return Border(top: side8(color));
+  }
 
-  /// Constructs a border of 2.0 for left direction
-  static l2(Color color) => Border(left: _b2(color));
+  /// Constructs a [Border] with a width of 8.0 for right direction
+  static Border right8(Color color) {
+    return Border(right: side8(color));
+  }
 
-  /// Constructs a border of 4.0 for left direction
-  static l4(Color color) => Border(left: _b4(color));
+  /// Constructs a [Border] with a width of 8.0 for bottom direction
+  static Border bottom8(Color color) {
+    return Border(bottom: side8(color));
+  }
 
-  /// Constructs a border of 6.0 for left direction
-  static l6(Color color) => Border(left: _b6(color));
+  /// Constructs a [Border] with a width of 8.0 for left direction
+  static Border left8(Color color) {
+    return Border(left: side8(color));
+  }
 
-  /// Constructs a border of 8.0 for left direction
-  static l8(Color color) => Border(left: _b8(color));
+  /// Constructs a [Border] with a width of 10.0 for all directions
+  static Border all10(Color color) {
+    return Border.fromBorderSide(side10(color));
+  }
 
-  /// Constructs a border of 10.0 for left direction
-  static l10(Color color) => Border(left: _b10(color));
+  /// Constructs a [Border] with a width of 10.0 for horizontal directions
+  static Border horiz10(Color color) {
+    return Border.symmetric(horizontal: side10(color));
+  }
+
+  /// Constructs a [Border] with a width of 10.0 for vertical directions
+  static Border vert10(Color color) {
+    return Border.symmetric(vertical: side10(color));
+  }
+
+  /// Constructs a [Border] with a width of 10.0 for top direction
+  static Border top10(Color color) {
+    return Border(top: side10(color));
+  }
+
+  /// Constructs a [Border] with a width of 10.0 for right direction
+  static Border right10(Color color) {
+    return Border(right: side10(color));
+  }
+
+  /// Constructs a [Border] with a width of 10.0 for bottom direction
+  static Border bottom10(Color color) {
+    return Border(bottom: side10(color));
+  }
+
+  /// Constructs a [Border] with a width of 10.0 for left direction
+  static Border left10(Color color) {
+    return Border(left: side10(color));
+  }
 }

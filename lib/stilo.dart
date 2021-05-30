@@ -1,4 +1,4 @@
-/// A utility-first Flutter framework that containing different type of
+/// A utility-first Flutter library that containing different type of
 /// utility classes to speed up development process.
 ///
 /// The library contains classes to deal with:
@@ -9,6 +9,7 @@ export 'src/border_radius.dart';
 export 'src/border.dart';
 export 'src/box_shadow.dart';
 export 'src/color.dart';
+export 'src/color_opacity.dart';
 export 'src/divider.dart';
 export 'src/duration.dart';
 export 'src/edge.dart';
@@ -20,6 +21,7 @@ export 'src/height.dart';
 export 'src/letter_spacing.dart';
 export 'src/line_height.dart';
 export 'src/opacity.dart';
+export 'src/positioned.dart';
 export 'src/spacing.dart';
 export 'src/transform_rotate.dart';
 export 'src/transform_scale.dart';
